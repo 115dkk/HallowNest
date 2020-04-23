@@ -1,0 +1,29 @@
+{
+  "Hallownest:Greenpath": {
+    "TEXT": [
+      "Greenpath",
+      "Act 1",
+      "In #gbush and #gvine the mind of #pUnn revealed."
+    ]
+  },
+  "Hallownest:CityofTears": {
+    "TEXT": [
+      "The City of Tears",
+      "Act 2",
+      "Proceed onward to #bHallownest's #bGlorious #bHeart."
+    ]
+  },
+  "Hallownest:KingdomsEdge": {
+    "TEXT": [
+      "Kingdoms's Edge",
+      "Act 3",
+      "Beyond lies only the #rrefuse and #rregret of our creation."
+    ]
+  },
+  "Hallownest:DeathIntent": {
+    "TEXT": [
+      "Death",
+      "This enemy intends to #rkill you."
+    ]
+  }
+}

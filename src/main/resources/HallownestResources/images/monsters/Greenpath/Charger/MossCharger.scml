@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0">
+        <file id="0" name="Idle001.png" width="392" height="235" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="Idle002.png" width="392" height="235" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="Idle003.png" width="392" height="235" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="Idle004.png" width="392" height="235" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="Recover009.png" width="392" height="235" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="Charge001.png" width="392" height="235" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="Charge002.png" width="392" height="235" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="Charge003.png" width="392" height="235" pivot_x="0" pivot_y="1"/>
+        <file id="8" name="Charge004.png" width="392" height="235" pivot_x="0" pivot_y="1"/>
+        <file id="9" name="IdleExit.png" width="392" height="235" pivot_x="0" pivot_y="1"/>
+        <file id="10" name="WeakIdle001.png" width="392" height="235" pivot_x="0" pivot_y="1"/>
+        <file id="11" name="RecoverE1.png" width="392" height="235" pivot_x="0" pivot_y="1"/>
+        <file id="12" name="RecoverE0.png" width="392" height="235" pivot_x="0" pivot_y="1"/>
+        <file id="13" name="WeakIdle002.png" width="392" height="235" pivot_x="0" pivot_y="1"/>
+        <file id="14" name="WeakIdle003.png" width="392" height="235" pivot_x="0" pivot_y="1"/>
+        <file id="15" name="WeakIdle004.png" width="392" height="235" pivot_x="0" pivot_y="1"/>
+        <file id="16" name="Hit001.png" width="392" height="235" pivot_x="0" pivot_y="1"/>
+        <file id="17" name="Hit002.png" width="392" height="235" pivot_x="0" pivot_y="1"/>
+        <file id="18" name="Recover001.png" width="392" height="235" pivot_x="0" pivot_y="1"/>
+        <file id="19" name="Recover002.png" width="392" height="235" pivot_x="0" pivot_y="1"/>
+        <file id="20" name="Recover003.png" width="392" height="235" pivot_x="0" pivot_y="1"/>
+        <file id="21" name="Recover004.png" width="392" height="235" pivot_x="0" pivot_y="1"/>
+        <file id="22" name="Recover005.png" width="392" height="235" pivot_x="0" pivot_y="1"/>
+        <file id="23" name="Recover006.png" width="392" height="235" pivot_x="0" pivot_y="1"/>
+        <file id="24" name="Recover007.png" width="392" height="235" pivot_x="0" pivot_y="1"/>
+        <file id="25" name="Recover008.png" width="392" height="235" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="Charger">
+        <animation id="0" name="Idle" length="800" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="200">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                </key>
+                <key id="2" time="400">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                </key>
+                <key id="3" time="600">
+                    <object_ref id="0" timeline="3" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="Idle001">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-189" y="218"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="Idle002">
+                <key id="0" time="200" spin="0">
+                    <object folder="0" file="1" x="-178" y="216"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="Idle003">
+                <key id="0" time="400" spin="0">
+                    <object folder="0" file="2" x="-191" y="216"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="Idle004">
+                <key id="0" time="600" spin="0">
+                    <object folder="0" file="3" x="-192" y="213"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="Attack" length="750" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="66">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="68">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                </key>
+                <key id="3" time="203">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                </key>
+                <key id="4" time="204">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                </key>
+                <key id="5" time="271">
+                    <object_ref id="0" timeline="2" key="1" z_index="0"/>
+                </key>
+                <key id="6" time="272">
+                    <object_ref id="0" timeline="3" key="0" z_index="0"/>
+                </key>
+                <key id="7" time="339">
+                    <object_ref id="0" timeline="3" key="1" z_index="0"/>
+                </key>
+                <key id="8" time="340">
+                    <object_ref id="0" timeline="4" key="0" z_index="0"/>
+                </key>
+                <key id="9" time="406">
+                    <object_ref id="0" timeline="4" key="1" z_index="0"/>
+                </key>
+                <key id="10" time="409">
+                    <object_ref id="0" timeline="5" key="0" z_index="0"/>
+                </key>
+                <key id="11" time="474">
+                    <object_ref id="0" timeline="5" key="1" z_index="0"/>
+                </key>
+                <key id="12" time="475">
+                    <object_ref id="0" timeline="6" key="0" z_index="0"/>
+                </key>
+                <key id="13" time="578">
+                    <object_ref id="0" timeline="6" key="1" z_index="0"/>
+                </key>
+                <key id="14" time="579">
+                    <object_ref id="0" timeline="7" key="0" z_index="0"/>
+                </key>
+                <key id="15" time="679">
+                    <object_ref id="0" timeline="7" key="1" z_index="0"/>
+                </key>
+                <key id="16" time="680">
+                    <object_ref id="0" timeline="8" key="0" z_index="0"/>
+                </key>
+                <key id="17" time="750">
+                    <object_ref id="0" timeline="8" key="1" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="Idle001">
+                <key id="0" spin="-1">
+                    <object folder="0" file="0" x="-10.068817" y="89.932608" pivot_x="0.456457" pivot_y="0.455032"/>
+                </key>
+                <key id="1" time="66">
+                    <object folder="0" file="0" x="-17.933985" y="102.292159" pivot_x="0.456457" pivot_y="0.455032" angle="353.832558" scale_y="1"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="Recover009">
+                <key id="0" time="68">
+                    <object folder="0" file="4" x="-34.755868" y="125.787588" pivot_x="0.424407" pivot_y="0.555109"/>
+                </key>
+                <key id="1" time="203" spin="-1">
+                    <object folder="0" file="4" x="-85.317666" y="124.663993" pivot_x="0.424407" pivot_y="0.555109" angle="25.067433" scale_y="1"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="Charge001">
+                <key id="0" time="204" spin="0">
+                    <object folder="0" file="5" x="-283.146067" y="212.359551"/>
+                </key>
+                <key id="1" time="271" spin="0">
+                    <object folder="0" file="5" x="-289.146067" y="209.359551"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="Charge002">
+                <key id="0" time="272" spin="0">
+                    <object folder="0" file="6" x="-325.842697" y="194.382022"/>
+                </key>
+                <key id="1" time="339" spin="0">
+                    <object folder="0" file="6" x="-365.842697" y="194.382022"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="Charge003">
+                <key id="0" time="340" spin="0">
+                    <object folder="0" file="7" x="-359.550562" y="174.157303"/>
+                </key>
+                <key id="1" time="406" spin="0">
+                    <object folder="0" file="7" x="-382.550562" y="174.157303"/>
+                </key>
+            </timeline>
+            <timeline id="5" name="Charge004">
+                <key id="0" time="409" spin="0">
+                    <object folder="0" file="8" x="-403.370787" y="179.775281"/>
+                </key>
+                <key id="1" time="474" spin="0">
+                    <object folder="0" file="8" x="-426.370787" y="179.775281"/>
+                </key>
+            </timeline>
+            <timeline id="6" name="Idle002_000">
+                <key id="0" time="475" spin="0">
+                    <object folder="0" file="1" x="-450.561798" y="200"/>
+                </key>
+                <key id="1" time="578" spin="0">
+                    <object folder="0" file="1" x="-382.561798" y="206"/>
+                </key>
+            </timeline>
+            <timeline id="7" name="IdleExit">
+                <key id="0" time="579" spin="0">
+                    <object folder="0" file="9" x="-367.41573" y="213.483146"/>
+                </key>
+                <key id="1" time="679" spin="0">
+                    <object folder="0" file="9" x="-246.41573" y="220.483146"/>
+                </key>
+            </timeline>
+            <timeline id="8" name="Idle003_000">
+                <key id="0" time="680" spin="0">
+                    <object folder="0" file="2" x="-238.202247" y="213.483146"/>
+                </key>
+                <key id="1" time="750" spin="0">
+                    <object folder="0" file="2" x="-194.202247" y="214.483146"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="2" name="Shift" length="200" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="25">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="4" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="0" z_index="3"/>
+                    <object_ref id="4" timeline="2" key="0" z_index="4"/>
+                </key>
+                <key id="2" time="100">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="2" z_index="1"/>
+                    <object_ref id="2" timeline="4" key="1" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="1" z_index="3"/>
+                    <object_ref id="4" timeline="2" key="1" z_index="4"/>
+                </key>
+                <key id="3" time="149">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="3" z_index="1"/>
+                    <object_ref id="2" timeline="4" key="2" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="2" z_index="3"/>
+                    <object_ref id="4" timeline="2" key="2" z_index="4"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="Idle001">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-189" y="218"/>
+                </key>
+                <key id="1" time="25" spin="0">
+                    <object folder="0" file="0" x="-189" y="218" a="1"/>
+                </key>
+                <key id="2" time="100" spin="0">
+                    <object folder="0" file="0" x="-189" y="218" a="0.26207"/>
+                </key>
+                <key id="3" time="149" spin="0">
+                    <object folder="0" file="0" x="-189" y="218" a="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="WeakIdle001">
+                <key id="0" spin="0">
+                    <object folder="0" file="10" x="-248.314607" y="170.786517"/>
+                </key>
+                <key id="1" time="149" spin="0">
+                    <object folder="0" file="10" x="-239.325843" y="168.539326"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="RecoverE1">
+                <key id="0" time="25" spin="0">
+                    <object folder="0" file="11" x="4.492781" y="84.271686" pivot_x="0.501601" pivot_y="0.497977" scale_x="1.510449" scale_y="1.716547" a="0.50345"/>
+                </key>
+                <key id="1" time="100" spin="0">
+                    <object folder="0" file="11" x="4.492781" y="84.271686" pivot_x="0.501601" pivot_y="0.497977" scale_x="1.510449" scale_y="1.716547"/>
+                </key>
+                <key id="2" time="149" spin="0">
+                    <object folder="0" file="11" x="5.616376" y="13.485169" pivot_x="0.501601" pivot_y="0.497977" scale_x="1.510449" scale_y="1.716547" a="0"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="RecoverE1_000">
+                <key id="0" time="25" spin="0">
+                    <object folder="0" file="11" x="3.377763" y="85.400043" pivot_x="0.493024" pivot_y="0.493216" angle="207.553497" scale_x="1"/>
+                </key>
+                <key id="1" time="100" spin="0">
+                    <object folder="0" file="11" x="3.377763" y="85.400043" pivot_x="0.493024" pivot_y="0.493216" angle="207.553497" scale_x="1.338284" scale_y="1.369233"/>
+                </key>
+                <key id="2" time="149" spin="0">
+                    <object folder="0" file="11" x="-4.487406" y="17.984313" pivot_x="0.493024" pivot_y="0.493216" angle="207.553497" scale_x="1.292091" scale_y="1.318813" a="0"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="RecoverE0">
+                <key id="0" time="25" spin="0">
+                    <object folder="0" file="12" x="7.863567" y="85.395282" pivot_x="0.501601" pivot_y="0.497977"/>
+                </key>
+                <key id="1" time="100" spin="0">
+                    <object folder="0" file="12" x="7.863567" y="85.395282" pivot_x="0.501601" pivot_y="0.497977" a="0"/>
+                </key>
+                <key id="2" time="149" spin="0">
+                    <object folder="0" file="12" x="7.863567" y="24.721125" pivot_x="0.501601" pivot_y="0.497977" a="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="3" name="WeakIdle" length="800" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="200">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                </key>
+                <key id="2" time="400">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                </key>
+                <key id="3" time="600">
+                    <object_ref id="0" timeline="3" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="WeakIdle001">
+                <key id="0" spin="0">
+                    <object folder="0" file="10" x="-239.325843" y="168.539326"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="WeakIdle002">
+                <key id="0" time="200" spin="0">
+                    <object folder="0" file="13" x="-239.325843" y="165.168539"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="WeakIdle003">
+                <key id="0" time="400" spin="0">
+                    <object folder="0" file="14" x="-238.202247" y="160.674157"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="WeakIdle004">
+                <key id="0" time="600" spin="0">
+                    <object folder="0" file="15" x="-235.955056" y="165.168539"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="4" name="Recover" length="1600" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="100">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                </key>
+                <key id="2" time="200">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                </key>
+                <key id="3" time="300">
+                    <object_ref id="0" timeline="3" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="4" key="0" z_index="1"/>
+                </key>
+                <key id="4" time="400">
+                    <object_ref id="0" timeline="5" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="4" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="6" key="0" z_index="2"/>
+                </key>
+                <key id="5" time="500">
+                    <object_ref id="0" timeline="7" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="4" key="2" z_index="1"/>
+                    <object_ref id="2" timeline="6" key="1" z_index="2"/>
+                </key>
+                <key id="6" time="600">
+                    <object_ref id="0" timeline="6" key="2" z_index="0"/>
+                </key>
+                <key id="7" time="650">
+                    <object_ref id="0" timeline="6" key="3" z_index="0"/>
+                </key>
+                <key id="8" time="1000">
+                    <object_ref id="0" timeline="6" key="4" z_index="0"/>
+                    <object_ref id="1" timeline="8" key="0" z_index="1"/>
+                </key>
+                <key id="9" time="1098">
+                    <object_ref id="0" timeline="9" key="0" z_index="0"/>
+                </key>
+                <key id="10" time="1200">
+                    <object_ref id="0" timeline="10" key="0" z_index="0"/>
+                </key>
+                <key id="11" time="1300">
+                    <object_ref id="0" timeline="11" key="0" z_index="0"/>
+                </key>
+                <key id="12" time="1400">
+                    <object_ref id="0" timeline="12" key="0" z_index="0"/>
+                </key>
+                <key id="13" time="1499">
+                    <object_ref id="0" timeline="13" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="WeakIdle001">
+                <key id="0" spin="0">
+                    <object folder="0" file="10" x="-239.325843" y="168.539326"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="Recover001">
+                <key id="0" time="100" spin="0">
+                    <object folder="0" file="18" x="-247.191011" y="174.157303"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="Recover002">
+                <key id="0" time="200" spin="0">
+                    <object folder="0" file="19" x="-261.797753" y="168.539326"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="Recover003">
+                <key id="0" time="300" spin="0">
+                    <object folder="0" file="20" x="-265.168539" y="151.685393"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="RecoverE1_001">
+                <key id="0" time="300" spin="0">
+                    <object folder="0" file="11" x="-256.179775" y="166.292135"/>
+                </key>
+                <key id="1" time="400" spin="0">
+                    <object folder="0" file="11" x="-258.426966" y="137.078652" a="0.46897"/>
+                </key>
+                <key id="2" time="500" spin="0">
+                    <object folder="0" file="11" x="-260.576453" y="103.517342" a="0"/>
+                </key>
+            </timeline>
+            <timeline id="5" name="Recover004">
+                <key id="0" time="400" spin="0">
+                    <object folder="0" file="21" x="-260.674157" y="147.191011"/>
+                </key>
+            </timeline>
+            <timeline id="6" name="RecoverE0_000">
+                <key id="0" time="400" spin="0">
+                    <object folder="0" file="12" x="-257.303371" y="138.202247" a="0"/>
+                </key>
+                <key id="1" time="500" spin="0">
+                    <object folder="0" file="12" x="-257.303371" y="138.202247" a="0.25517"/>
+                </key>
+                <key id="2" time="600" spin="0">
+                    <object folder="0" file="12" x="-257.303371" y="133.202247"/>
+                </key>
+                <key id="3" time="650" spin="0">
+                    <object folder="0" file="12" x="-257.303371" y="133.202247" a="0"/>
+                </key>
+                <key id="4" time="1000" spin="0">
+                    <object folder="0" file="12" x="-257.303371" y="134.016201" a="0"/>
+                </key>
+            </timeline>
+            <timeline id="7" name="Recover005">
+                <key id="0" time="500" spin="0">
+                    <object folder="0" file="22" x="-249.438202" y="143.820225"/>
+                </key>
+            </timeline>
+            <timeline id="8" name="Recover006">
+                <key id="0" time="1000" spin="0">
+                    <object folder="0" file="23" x="-151.685393" y="168.539326"/>
+                </key>
+            </timeline>
+            <timeline id="9" name="Recover007">
+                <key id="0" time="1098" spin="0">
+                    <object folder="0" file="24" x="-168.539326" y="213.483146"/>
+                </key>
+            </timeline>
+            <timeline id="10" name="Recover008">
+                <key id="0" time="1200" spin="0">
+                    <object folder="0" file="25" x="-198.876404" y="230.337079"/>
+                </key>
+            </timeline>
+            <timeline id="11" name="Recover009_000">
+                <key id="0" time="1300" spin="0">
+                    <object folder="0" file="4" x="-211.235955" y="241.573034"/>
+                </key>
+            </timeline>
+            <timeline id="12" name="Charge001_000">
+                <key id="0" time="1400" spin="0">
+                    <object folder="0" file="5" x="-225.842697" y="207.865169"/>
+                </key>
+            </timeline>
+            <timeline id="13" name="Idle004_000">
+                <key id="0" time="1499" spin="0">
+                    <object folder="0" file="3" x="-212.359551" y="207.865169"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="5" name="Hit" length="300" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="50">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                </key>
+                <key id="2" time="150">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                </key>
+                <key id="3" time="199">
+                    <object_ref id="0" timeline="1" key="2" z_index="0"/>
+                </key>
+                <key id="4" time="200">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                </key>
+                <key id="5" time="297">
+                    <object_ref id="0" timeline="2" key="1" z_index="0"/>
+                </key>
+                <key id="6" time="300">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="WeakIdle001">
+                <key id="0" spin="0">
+                    <object folder="0" file="10" x="-239.325843" y="168.539326"/>
+                </key>
+                <key id="1" time="300" spin="0">
+                    <object folder="0" file="10" x="-238.325843" y="168.539326"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="Hit001">
+                <key id="0" time="50" spin="0">
+                    <object folder="0" file="16" x="-238.202247" y="166.292135"/>
+                </key>
+                <key id="1" time="150" spin="0">
+                    <object folder="0" file="16" x="-201.202247" y="166.292135"/>
+                </key>
+                <key id="2" time="199" spin="0">
+                    <object folder="0" file="16" x="-207.202247" y="166.292135"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="Hit002">
+                <key id="0" time="200" spin="0">
+                    <object folder="0" file="17" x="-208.988764" y="160.674157"/>
+                </key>
+                <key id="1" time="297" spin="0">
+                    <object folder="0" file="17" x="-243.988764" y="159.674157"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

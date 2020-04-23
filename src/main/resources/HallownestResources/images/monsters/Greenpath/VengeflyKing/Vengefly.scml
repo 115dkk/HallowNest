@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0">
+        <file id="0" name="flyIdle002.png" width="600" height="600" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="flyIdle001.png" width="600" height="600" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="flyIdle003.png" width="600" height="600" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="flyIdle004.png" width="600" height="600" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="flyPoon001.png" width="600" height="600" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="flyPoon002.png" width="600" height="600" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="flyPoon003.png" width="600" height="600" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="flyEffect01.png" width="600" height="600" pivot_x="0" pivot_y="1"/>
+        <file id="8" name="flyPoon004.png" width="600" height="600" pivot_x="0" pivot_y="1"/>
+        <file id="9" name="flyPoon005.png" width="600" height="600" pivot_x="0" pivot_y="1"/>
+        <file id="10" name="flyhit001.png" width="600" height="600" pivot_x="0" pivot_y="1"/>
+        <file id="11" name="flyhit002.png" width="600" height="600" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="Fly">
+        <animation id="0" name="Idle" length="800" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="198">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="200">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                </key>
+                <key id="3" time="398">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                </key>
+                <key id="4" time="400">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                </key>
+                <key id="5" time="598">
+                    <object_ref id="0" timeline="2" key="1" z_index="0"/>
+                </key>
+                <key id="6" time="600">
+                    <object_ref id="0" timeline="3" key="0" z_index="0"/>
+                </key>
+                <key id="7" time="798">
+                    <object_ref id="0" timeline="3" key="1" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="flyIdle001">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="0.988995" y="103.806521" pivot_x="0.463386" pivot_y="0.503003" angle="0"/>
+                </key>
+                <key id="1" time="198" spin="0">
+                    <object folder="0" file="1" x="-3.011005" y="107.806521" pivot_x="0.463386" pivot_y="0.503003" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="flyIdle002">
+                <key id="0" time="200" spin="0">
+                    <object folder="0" file="0" x="-283.471074" y="407.438017" angle="0"/>
+                </key>
+                <key id="1" time="398" spin="0">
+                    <object folder="0" file="0" x="-285.471074" y="411.438017" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="flyIdle003">
+                <key id="0" time="400" spin="0">
+                    <object folder="0" file="2" x="-283.471074" y="404.958678" angle="0"/>
+                </key>
+                <key id="1" time="598" spin="0">
+                    <object folder="0" file="2" x="-278.471074" y="398.958678" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="flyIdle004">
+                <key id="0" time="600" spin="0">
+                    <object folder="0" file="3" x="-285.123967" y="407.438017" angle="0"/>
+                </key>
+                <key id="1" time="798" spin="0">
+                    <object folder="0" file="3" x="-281.123967" y="398.438017" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="Dead" length="300" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="200">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="flyIdle003_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-276" y="375" a="0"/>
+                </key>
+                <key id="1" time="200" spin="0">
+                    <object folder="0" file="2" x="-274" y="384" a="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="2" name="Hit" length="300" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="25">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                </key>
+                <key id="2" time="100">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                </key>
+                <key id="3" time="149">
+                    <object_ref id="0" timeline="1" key="2" z_index="0"/>
+                </key>
+                <key id="4" time="150">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                </key>
+                <key id="5" time="199">
+                    <object_ref id="0" timeline="2" key="1" z_index="0"/>
+                </key>
+                <key id="6" time="200">
+                    <object_ref id="0" timeline="3" key="0" z_index="0"/>
+                </key>
+                <key id="7" time="249">
+                    <object_ref id="0" timeline="3" key="1" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="flyIdle001">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="0.988995" y="103.806521" pivot_x="0.463386" pivot_y="0.503003" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="flyhit001">
+                <key id="0" time="25" spin="0">
+                    <object folder="0" file="10" x="-275.903614" y="406.024096" angle="0"/>
+                </key>
+                <key id="1" time="100" spin="0">
+                    <object folder="0" file="10" x="-179.518072" y="415.662651" angle="0"/>
+                </key>
+                <key id="2" time="149" spin="0">
+                    <object folder="0" file="10" x="-200" y="408.433735" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="flyhit002">
+                <key id="0" time="150" spin="0">
+                    <object folder="0" file="11" x="-198.795181" y="393.975904" angle="0"/>
+                </key>
+                <key id="1" time="199" spin="0">
+                    <object folder="0" file="11" x="-250.60241" y="385.542169" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="flyIdle004_000">
+                <key id="0" time="200" spin="0">
+                    <object folder="0" file="3" x="-259.036145" y="393.975904" angle="0"/>
+                </key>
+                <key id="1" time="249" spin="0">
+                    <object folder="0" file="3" x="-275.903614" y="418.072289" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="3" name="Poon" length="500" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="100">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                </key>
+                <key id="2" time="200">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                </key>
+                <key id="3" time="300">
+                    <object_ref id="0" timeline="3" key="0" z_index="0"/>
+                </key>
+                <key id="4" time="494">
+                    <object_ref id="0" timeline="3" key="1" z_index="0"/>
+                </key>
+                <key id="5" time="495">
+                    <object_ref id="0" timeline="3" key="2" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="flyIdle001">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="0.988995" y="103.806521" pivot_x="0.463386" pivot_y="0.503003" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="flyPoon002">
+                <key id="0" time="100" spin="0">
+                    <object folder="0" file="5" x="-285" y="427"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="flyPoon003">
+                <key id="0" time="200" spin="0">
+                    <object folder="0" file="6" x="-261" y="430"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="flyPoon005">
+                <key id="0" time="300" spin="0">
+                    <object folder="0" file="9" x="23.006656" y="106.008319" pivot_x="0.493344" pivot_y="0.491681" angle="20.893718"/>
+                </key>
+                <key id="1" time="494" spin="0">
+                    <object folder="0" file="9" x="-106.993344" y="40.008319" pivot_x="0.493344" pivot_y="0.491681" angle="20.893718"/>
+                </key>
+                <key id="2" time="495" spin="0">
+                    <object folder="0" file="9" x="-106.562881" y="40.226863" pivot_x="0.493344" pivot_y="0.491681" angle="20.893718" a="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="4" name="Swarm" length="800" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="198">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="200">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                </key>
+                <key id="3" time="398">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                </key>
+                <key id="4" time="400">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                </key>
+                <key id="5" time="598">
+                    <object_ref id="0" timeline="2" key="1" z_index="0"/>
+                </key>
+                <key id="6" time="600">
+                    <object_ref id="0" timeline="3" key="0" z_index="0"/>
+                </key>
+                <key id="7" time="798">
+                    <object_ref id="0" timeline="3" key="1" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="flyIdle001">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="0.988995" y="103.806521" pivot_x="0.463386" pivot_y="0.503003" angle="0"/>
+                </key>
+                <key id="1" time="198" spin="0">
+                    <object folder="0" file="1" x="-60.035798" y="130.120571" pivot_x="0.463386" pivot_y="0.503003" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="flyIdle002">
+                <key id="0" time="200" spin="0">
+                    <object folder="0" file="0" x="-345.454545" y="444.628099" angle="0"/>
+                </key>
+                <key id="1" time="398" spin="0">
+                    <object folder="0" file="0" x="-449.107438" y="410.61157" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="flyIdle003">
+                <key id="0" time="400" spin="0">
+                    <object folder="0" file="2" x="-437.190083" y="401.652893" angle="0"/>
+                </key>
+                <key id="1" time="598" spin="0">
+                    <object folder="0" file="2" x="-416.487603" y="527.884298" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="flyIdle004">
+                <key id="0" time="600" spin="0">
+                    <object folder="0" file="3" x="-428.099174" y="528.099174" angle="0"/>
+                </key>
+                <key id="1" time="798" spin="0">
+                    <object folder="0" file="3" x="-281.123967" y="398.438017" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

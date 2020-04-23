@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0">
+        <file id="0" name="exist2.png" width="600" height="600" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="walking1.png" width="600" height="600" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="walking2.png" width="600" height="600" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="exist1.png" width="600" height="600" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="walking3.png" width="600" height="600" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="walking4.png" width="600" height="600" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="exist0.png" width="600" height="600" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="hit01.png" width="600" height="600" pivot_x="0" pivot_y="1"/>
+        <file id="8" name="hit02.png" width="600" height="600" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="TikTik">
+        <animation id="0" name="Idle" length="600" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="200">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                </key>
+                <key id="2" time="398">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="walking1">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="-309" y="336" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="walking3">
+                <key id="0" time="200" spin="0">
+                    <object folder="0" file="4" x="-297" y="336"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="walking4">
+                <key id="0" time="398" spin="0">
+                    <object folder="0" file="5" x="-299" y="337"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="Exist" length="600" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="197">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="199">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                </key>
+                <key id="3" time="396">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                </key>
+                <key id="4" time="398">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                </key>
+                <key id="5" time="596">
+                    <object_ref id="0" timeline="2" key="1" z_index="0"/>
+                </key>
+                <key id="6" time="598">
+                    <object_ref id="0" timeline="3" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="walking1">
+                <key id="0" spin="-1">
+                    <object folder="0" file="1" x="-309" y="336" angle="0"/>
+                </key>
+                <key id="1" time="197">
+                    <object folder="0" file="1" x="-265" y="379" angle="351.689723" scale_x="1" scale_y="1"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="exist1">
+                <key id="0" time="199" spin="-1">
+                    <object folder="0" file="3" x="-302" y="335"/>
+                </key>
+                <key id="1" time="396">
+                    <object folder="0" file="3" x="-278" y="354" angle="356.07052" scale_x="1" scale_y="1"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="exist2">
+                <key id="0" time="398">
+                    <object folder="0" file="0" x="3.995008" y="31.009983" pivot_x="0.504992" pivot_y="0.490017"/>
+                </key>
+                <key id="1" time="596" spin="-1">
+                    <object folder="0" file="0" x="2.995008" y="25.009983" pivot_x="0.504992" pivot_y="0.490017" angle="13.601494"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="walking1_000">
+                <key id="0" time="598" spin="0">
+                    <object folder="0" file="1" x="-305" y="334"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="2" name="Move" length="400" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="98">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="99">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                </key>
+                <key id="3" time="199">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                </key>
+                <key id="4" time="200">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                </key>
+                <key id="5" time="299">
+                    <object_ref id="0" timeline="2" key="1" z_index="0"/>
+                </key>
+                <key id="6" time="300">
+                    <object_ref id="0" timeline="3" key="0" z_index="0"/>
+                </key>
+                <key id="7" time="399">
+                    <object_ref id="0" timeline="3" key="1" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="walking1">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="-309" y="336" angle="0"/>
+                </key>
+                <key id="1" time="98" spin="0">
+                    <object folder="0" file="1" x="-329" y="336" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="walking3">
+                <key id="0" time="99" spin="0">
+                    <object folder="0" file="4" x="-326" y="337"/>
+                </key>
+                <key id="1" time="199" spin="0">
+                    <object folder="0" file="4" x="-349" y="337"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="walking4">
+                <key id="0" time="200" spin="0">
+                    <object folder="0" file="5" x="-349" y="337"/>
+                </key>
+                <key id="1" time="299" spin="0">
+                    <object folder="0" file="5" x="-329" y="337"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="walking3_000">
+                <key id="0" time="300" spin="0">
+                    <object folder="0" file="4" x="-328" y="336"/>
+                </key>
+                <key id="1" time="399" spin="0">
+                    <object folder="0" file="4" x="-308" y="336"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="3" name="Hit" length="600" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="10">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                </key>
+                <key id="2" time="50">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                </key>
+                <key id="3" time="100">
+                    <object_ref id="0" timeline="1" key="2" z_index="0"/>
+                </key>
+                <key id="4" time="102">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                </key>
+                <key id="5" time="150">
+                    <object_ref id="0" timeline="2" key="1" z_index="0"/>
+                </key>
+                <key id="6" time="152">
+                    <object_ref id="0" timeline="3" key="0" z_index="0"/>
+                </key>
+                <key id="7" time="200">
+                    <object_ref id="0" timeline="3" key="1" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="walking1">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="-309" y="336" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="hit01">
+                <key id="0" time="10" spin="0">
+                    <object folder="0" file="7" x="-296" y="337"/>
+                </key>
+                <key id="1" time="50" spin="0">
+                    <object folder="0" file="7" x="-250" y="337"/>
+                </key>
+                <key id="2" time="100" spin="0">
+                    <object folder="0" file="7" x="-270" y="337"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="hit02">
+                <key id="0" time="102" spin="0">
+                    <object folder="0" file="8" x="-268" y="336"/>
+                </key>
+                <key id="1" time="150" spin="0">
+                    <object folder="0" file="8" x="-289" y="336"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="walking3_001">
+                <key id="0" time="152" spin="0">
+                    <object folder="0" file="4" x="-291" y="336"/>
+                </key>
+                <key id="1" time="200" spin="0">
+                    <object folder="0" file="4" x="-300" y="336"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

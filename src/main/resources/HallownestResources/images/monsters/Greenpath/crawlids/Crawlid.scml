@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0">
+        <file id="0" name="vibin0.png" width="600" height="600" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="vibin1.png" width="600" height="600" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="vibin2.png" width="600" height="600" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="vibin3.png" width="600" height="600" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="hit1.png" width="600" height="600" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="hit2.png" width="600" height="600" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="Crawlid">
+        <animation id="0" name="Idle" length="600" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="200">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                </key>
+                <key id="2" time="400">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="vibin0">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-301" y="341" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="vibin1">
+                <key id="0" time="200" spin="0">
+                    <object folder="0" file="1" x="-301" y="332" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="vibin2">
+                <key id="0" time="400" spin="0">
+                    <object folder="0" file="2" x="-305" y="334" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="Hit" length="300" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="1">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                </key>
+                <key id="2" time="75">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                </key>
+                <key id="3" time="150">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                </key>
+                <key id="4" time="220">
+                    <object_ref id="0" timeline="2" key="1" z_index="0"/>
+                </key>
+                <key id="5" time="221">
+                    <object_ref id="0" timeline="3" key="0" z_index="0"/>
+                </key>
+                <key id="6" time="280">
+                    <object_ref id="0" timeline="3" key="1" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="vibin0">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-301" y="341" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="hit1">
+                <key id="0" time="1" spin="0">
+                    <object folder="0" file="4" x="-289" y="331" angle="0"/>
+                </key>
+                <key id="1" time="75" spin="0">
+                    <object folder="0" file="4" x="-271" y="331" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="hit2">
+                <key id="0" time="150" spin="0">
+                    <object folder="0" file="5" x="-275" y="331"/>
+                </key>
+                <key id="1" time="220" spin="0">
+                    <object folder="0" file="5" x="-288" y="331"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="vibin0_000">
+                <key id="0" time="221" spin="0">
+                    <object folder="0" file="0" x="-287" y="336"/>
+                </key>
+                <key id="1" time="280" spin="0">
+                    <object folder="0" file="0" x="-305" y="337"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="2" name="Vibe" length="450" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="150">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                </key>
+                <key id="2" time="298">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                </key>
+                <key id="3" time="300">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                </key>
+                <key id="4" time="450">
+                    <object_ref id="0" timeline="2" key="1" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="vibin0">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-301" y="341" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="vibin3">
+                <key id="0" time="150" spin="-1">
+                    <object folder="0" file="3" x="-304" y="335" angle="0"/>
+                </key>
+                <key id="1" time="298">
+                    <object folder="0" file="3" x="-243.122" y="378.912" angle="351.377949"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="vibin2_000">
+                <key id="0" time="300">
+                    <object folder="0" file="2" x="-261" y="370" angle="353.326469"/>
+                </key>
+                <key id="1" time="450" spin="-1">
+                    <object folder="0" file="2" x="-302" y="333" angle="0.186327"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="3" name="Walk" length="600" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="199">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="200">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                </key>
+                <key id="3" time="300">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                </key>
+                <key id="4" time="399">
+                    <object_ref id="0" timeline="1" key="2" z_index="0"/>
+                </key>
+                <key id="5" time="400">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                </key>
+                <key id="6" time="599">
+                    <object_ref id="0" timeline="2" key="1" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="vibin0">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-301" y="341" angle="0"/>
+                </key>
+                <key id="1" time="199" spin="0">
+                    <object folder="0" file="0" x="-328" y="341" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="vibin1">
+                <key id="0" time="200" spin="0">
+                    <object folder="0" file="1" x="-329" y="332" angle="0"/>
+                </key>
+                <key id="1" time="300" spin="0">
+                    <object folder="0" file="1" x="-344.075377" y="332" angle="0"/>
+                </key>
+                <key id="2" time="399" spin="0">
+                    <object folder="0" file="1" x="-329" y="332" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="vibin2">
+                <key id="0" time="400" spin="0">
+                    <object folder="0" file="2" x="-328" y="334" angle="0"/>
+                </key>
+                <key id="1" time="599" spin="0">
+                    <object folder="0" file="2" x="-305" y="334" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

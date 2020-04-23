@@ -1,0 +1,872 @@
+{
+
+  "Hallownest:BossHornet": {
+    "MOVES": [
+      "Parrying Stance",
+      "Daughter Dash",
+      "Needle and Silk",
+      "Summon Spikes",
+      "Gossimer Storm",
+      "Furious Riposte"
+    ],
+    "NAME": "Hornet",
+    "DIALOG": [
+      "Do you haunt my dreams... Or I yours?",
+      "Only pity for your cursed kind."
+    ]
+  },
+  "Hallownest:BossBrokenVessel": {
+    "MOVES": [
+      "Absorb Infection",
+      "Forlorn Flail",
+      "Slash",
+      "Cascade",
+      "Summoning Slam"
+    ],
+    "NAME": "Broken Vessel",
+    "DIALOG": [
+      "..."
+    ]
+  },
+  "Hallownest:minionBlob": {
+    "MOVES": [
+      "Infect",
+      "Empowering Pop"
+    ],
+    "NAME": "Infected Balloon"
+  },
+  "Hallownest:eliteVengeflyKing": {
+    "MOVES": [
+      "Swoop",
+      "Buzz",
+      "Summoning Scream"
+    ],
+    "NAME": "Vengefly King",
+    "DIALOG": [
+      "...Defend...Kill..."
+    ]
+  },
+  "Hallownest:minionFly": {
+    "MOVES": [
+      "Kamikaze",
+      "Swarm"
+    ],
+    "NAME": "Green Vengefly"
+  },
+  "Hallownest:eliteCrystalGuardian": {
+    "MOVES": [
+      "Ragin'",
+      "Blast",
+      "Huh?"
+    ],
+    "NAME": "Crystal Guardian",
+    "DIALOG": [
+      "...My light... My rest...",
+      "...Shining... I am the light..."
+    ]
+  },
+  "Hallownest:BossFalseKnight":{
+    "MOVES": [
+      "Slam",
+      "Heavy Smash",
+      "Charge",
+      "Rampage",
+      "Exposed"
+    ],
+    "NAME": "The False Knight",
+    "DIALOG": [
+      "This great shell... NL ...It belongs to me!",
+      "I wanted... NL ...The strength to protect the others..."
+    ]
+  },
+  "Hallownest:eliteMossKnight":{
+    "MOVES" : [
+      "Spit",
+      "Ready Stance",
+      "Leaf Me Alone",
+      "Recovery"
+    ],
+    "NAME" : "Moss Knight",
+    "DIALOG": [
+      "So... Tired... NL Let us rest...",
+      "...New light, in our leaves...",
+      "Unn... Protect us..."
+    ]
+  },
+  "Hallownest:monsterAspidMother": {
+    "MOVES": [
+      "Birth",
+      "Swarm"
+    ],
+    "NAME": "Aspid Mother",
+    "DIALOG": [
+      "...Safe...Dark...",
+      "...Light...Danger..."
+    ]
+  },
+  "Hallownest:minionBabyAspid": {
+    "MOVES": [
+      "Protect",
+      "Destroy"
+    ],
+    "NAME": "Aspid Hatchling"
+  },
+  "Hallownest:monsterHuskGuard": {
+    "MOVES": [
+      "Flop",
+      "Charging Up",
+      "Heavy Slam"
+    ],
+    "NAME": "Husk Guard",
+    "DIALOG": [
+      "Remain...At guard..."
+    ]
+  },
+  "Hallownest:monsterHuskWarrior": {
+    "MOVES": [
+      "Shielded Strike",
+      "Block",
+      "Flurry",
+      "Hunker"
+    ],
+    "NAME": "Husk Warrior",
+    "DIALOG": ["I can't....Wake up..."]
+  },
+  "Hallownest:monsterTikTik": {
+    "MOVES": [
+      "Tik",
+      "Walk Slowly"
+    ],
+    "NAME": "TikTik",
+    "DIALOG": [
+      "...Pain..."
+    ]
+  },
+  "Hallownest:monsterCrawlid": {
+    "MOVES": [
+      "Vibin",
+      "Walk Slowly"
+    ],
+    "NAME": "Crawlid",
+    "DIALOG": [
+      "...Away. Away..."
+    ]
+  },
+  "Hallownest:monsterBaldur": {
+    "MOVES": [
+      "Nip",
+      "Ball Form",
+      "Rollout"
+    ],
+    "NAME": "Baldur",
+    "DIALOG": ["...Hungry...Hungry..."]
+  },
+  "Hallownest:monsterMosskin": {
+    "MOVES": [
+      "Poof",
+      "Fury",
+      "Sacrifice",
+      "Last Try",
+      "  "
+    ],
+    "NAME": "Volatile Mosskin",
+    "DIALOG": [
+      "Protect the road of Unn..."
+    ]
+  },
+  "Hallownest:monsterMossCreep": {
+    "MOVES": [
+      "Hide",
+      "Wander",
+      "Spikes"
+    ],
+    "NAME": "Moss Creep",
+    "DIALOG": [
+      "I'm not...Dead..",
+      "Your smell...Kill you..."
+    ]
+  },
+  "Hallownest:monsterMossCharger": {
+    "MOVES": [
+      "Charge",
+      "Recover"
+    ],
+    "NAME": "Moss Charger",
+    "DIALOG": [
+      "...Scared..."
+    ]
+  },
+  "Hallownest:monsterFoolEater": {
+    "MOVES": [
+      "Wait",
+      "Trap"
+    ],
+    "NAME": "Fool Eater",
+    "DIALOG": ["..."]
+  },
+  "Hallownest:monsterUuma": {
+    "MOVES": [
+      "Zap",
+      "Closer",
+      "Further"
+    ],
+    "NAME": "Uuma",
+    "DIALOG": ["...Monomon..."]
+  },
+  "Hallownest:monsterOoma": {
+    "MOVES": [
+      "Drift",
+      "Perish",
+      "Detonate"
+    ],
+    "NAME": "Ooma",
+    "DIALOG": ["...MONOMON..."]
+  },
+
+
+
+
+  "Hallownest:CITYOFTEARS":{
+    "NAME" : "THE FOLLOWING ENEMIES ARE FROM THE CITY OF TEARS ACT 2"
+  },
+
+
+
+  "Hallownest:BossMantisLord": {
+    "MOVES": [
+      "Cover Strike",
+      "Wind Cutter",
+      "Drop Strike",
+      "Bow"
+    ],
+    "NAME": "Mantis Lord",
+    "DIALOG": [
+      "...At last a true challenger...",
+      "This one shows promise...",
+      "...Honour from one of its kind..."
+    ]
+  },
+  "Hallownest:BossSoulMaster": {
+    "MOVES": [
+      "Soul Ball",
+      "Soul Slam",
+      "Clocktower",
+      "Arena Dash",
+      "Consume",
+      "Deflated"
+    ],
+    "NAME": "Soul Master",
+    "DIALOG": [
+      "The King falls, but I live forever!",
+      "I can hear it...The whispering of their souls...",
+      "But the King... why?! He opposed everything I did...",
+      "My dreams are eternal and so am I!"
+    ]
+  },
+  "Hallownest:BossGrimm": {
+    "MOVES":[
+      "Fire Bats",
+      "Flame Pillar",
+      "Ritual of Fire",
+      "Flame Cloak",
+      "Penetrating Punch",
+      "Cloak Spikes",
+      "Swaddled Flames",
+      "Channel Power",
+      "Released Fury"
+
+    ],
+    "NAME": "Troupe Master Grimm",
+    "DIALOG": [
+      "Dance with me, my friend. The crowd awaits. NL Show them you are worthy of a starring role!",
+      "#rThe #rRitual...",
+      "#rHeart #rof #rFlame...",
+      "Our scarlet eyes will watch you keenly... friend."
+    ]
+  },
+
+  "Hallownest:eliteWatcherKnight": {
+    "MOVES": [
+      "Sword Swings",
+      "Roll",
+      "Bounce",
+      "Dead",
+      "Revive"
+    ],
+    "NAME": "Watcher Knight",
+    "DIALOG": [
+      "Defend...Seal...",
+      "Light...Full..."
+    ]
+  },
+  "Hallownest:eliteSoulWarrior": {
+    "MOVES": [
+      "Soul Orb",
+      "Dive Slash",
+      "Dash Slash",
+      "Skitter"
+    ],
+    "NAME": "Soul Warrior",
+    "DIALOG": [
+      "This soul...Is it my own?",
+      "These skills...No training I recall..."
+    ]
+  },
+  "Hallownest:Nosk":{
+    "MOVES" : [
+      ""
+    ],
+    "NAME" : "Nosk",
+    "DIALOG": [
+      ""
+
+    ]
+  },
+
+  "Hallownest:HuskSentry":{
+    "MOVES" : [],
+    "NAME" : "Husk Sentry",
+    "DIALOG": []
+  },
+  "Hallownest:monsterMisterMushroom": {
+    "MOVES": [
+      "Readjusting",
+      "Turn",
+      "Nod",
+      "Ignore"
+    ],
+    "NAME": "Mister Mushroom",
+    "DIALOG": [
+      "Caps and shells may fall to dust, But Mr Mushroom readjusts..."
+    ]
+  },
+  "Hallownest:monsterMantisWarrior": {
+    "MOVES": [
+      "Side Slash",
+      "Up Slice",
+      "Challenge",
+      "Battle Dance"
+    ],
+    "NAME": "Mantis Warrior",
+    "DIALOG": [
+      "...No more will fall...No more outcast...",
+      "...We honour the Lords...Intruders shall end..."
+    ]
+  },
+  "Hallownest:monsterMantisYouth": {
+    "MOVES": [
+      "Wind Scythe",
+      "Dive Bomb",
+      "Taking Flight"
+    ],
+    "NAME": "Mantis Youth",
+    "DIALOG": [
+      "...Must kill...Prove strength to the tribe...",
+      "...It must learn fear..."
+    ]
+  },
+  "Hallownest:monsterShrumalOgre": {
+    "MOVES": [
+      "Thrash",
+      "Spit",
+      "Jumping",
+      "Scared"
+    ],
+    "NAME": "Shrumal Ogre",
+    "DIALOG": [
+      "...We crush...",
+      "...We as one..."
+    ]
+  },
+  "Hallownest:monsterMistake": {
+    "MOVES": [
+      "Charge",
+      "Whimper",
+      "Confused..."
+    ],
+    "NAME": "Mistake",
+    "DIALOG": [
+      "...Why...Why...?",
+      "...Light....Soul...Light!",
+      "...Did it work...?"
+    ]
+  },
+  "Hallownest:monsterGluttonousHusk": {
+    "MOVES": [
+      "Charge",
+      "Bounce",
+      "My... Money..."
+    ],
+    "NAME": "Gluttonous Husk",
+    "DIALOG": [
+      "You want....My Geo?",
+      "This wealth...Mine...All mine..."
+    ]
+  },
+  "Hallownest:monsterCowardlyHusk": {
+    "MOVES": [
+      "Slapping",
+      "Cornered",
+      "Looking for an Exit",
+      "Flee"
+    ],
+    "NAME": "Cowardly Husk",
+    "DIALOG": [
+      "...Stay back...",
+      "Your smell...Poor..."
+    ]
+  },
+  "Hallownest:monsterFlukemon": {
+    "MOVES": [
+      "Tackle",
+      "Jump Scare"
+    ],
+    "NAME": "Flukemon",
+    "DIALOG": [
+      "...Mother..."
+    ]
+  },
+  "Hallownest:monsterFluketop": {
+    "MOVES": [
+      "Tackle",
+      "GBLGBLGBL"
+    ],
+    "NAME": "Top Half",
+    "DIALOG": [""
+    ]
+  },
+  "Hallownest:monsterFlukebot": {
+    "MOVES": [
+      "Tackle",
+      "BGLBGLBGL"
+    ],
+    "NAME": "Bottom Half",
+    "DIALOG": [""
+    ]
+  },
+  "Hallownest:monsterGrimmkinMaster": {
+    "MOVES": [
+      "Flame Balls",
+      "Fire Spin",
+      "Divebomb"
+    ],
+    "NAME": "Grimmkin Master",
+    "DIALOG": [
+      "So dark! Burn brighter!",
+      "Take it, if you're worthy!"
+    ]
+  },
+  "Hallownest:monsterGrimmkinNovice": {
+    "MOVES": [
+      "Fireball",
+      "Flame Pillar",
+      "Divebomb"
+    ],
+    "NAME": "Grimmkin Novice",
+    "DIALOG": [
+      "Dance with me!",
+      "So dark! Burn brighter!"
+    ]
+  },
+  "Hallownest:monsterBroodingMawlek": {
+    "MOVES": [
+      "Wind Scythe",
+      "Dive Bomb",
+      "Taking Flight"
+    ],
+    "NAME": "Mantis Youth",
+    "DIALOG": [
+      "...Do they hear me...?",
+      "...Alone...Alone..."
+    ]
+  },
+
+
+  "Hallownest:KINGDOMSEDGE":{
+    "NAME" : "THE FOLLOWING ENEMIES ARE FROM THE KINGDOM'S EDGE: ACT 3"
+  },
+
+
+  "Hallownest:BossHollowKnight": {
+    "MOVES": [
+      "Flame Pillars",
+      "Blob Release",
+      "Triple Slash",
+      "Bouncing",
+      "Parry",
+      "Contrition",
+      "Despair"
+    ],
+    "NAME": "Hollow Knight",
+    "DIALOG": [
+      "...This Vessel, broken...fails...",
+      "...Father?..."
+    ]
+  },
+
+
+
+  "Hallownest:Radiance":{
+    "MOVES" : [
+      "Rising Dusk",
+      "Breaking Dawn",
+      "Sword Wall",
+      "Sword Rain",
+      "Charging Light",
+      "Burning Sun",
+      "Last Light"
+    ],
+    "NAME" : "The Radiance",
+    "DIALOG": [
+      "[#FFA200]...ANCIENT [#FFA200]ENEMY...",
+      "[#FFA200]...DAWN [#FFA200]WILL [#FFA200]BREAK...",
+      "[#FFA200]...THIS [#FFA200]LIGHT [#FFA200]CANNOT [#FFA200]BE [#FFA200]CONSUMED...",
+      "[#FFA200]...I [#FFA200]WILL [#FFA200]NOT [#FFA200]BE [#FFA200]FORGOTTEN..."
+
+    ]
+  },
+
+  "Hallownest:BossGreyPrinceZote": {
+    "MOVES": [
+      "Spit Zotelings",
+      "Shadow Slam",
+      "Flail",
+      "Bomb Call",
+      "Jump"
+    ],
+    "NAME": "Grey Prince Zote",
+    "DIALOG": [
+      "1 - Always Win Your Battles",
+      "2 - Never Let Them Laugh at You",
+      "3 - Always Be Rested",
+      "4 - Forget Your Past",
+      "5 - Strength Beats Strength",
+      "6 - Choose Your Own Fate",
+      "7 - Mourn Not the Dead",
+      "8 - Travel Alone",
+      "9 - Keep Your Home Tidy",
+      "10 - Keep Your Weapon Sharp",
+      "11 - Mothers Will Always Betray You",
+      "12 - Keep Your Cloak Dry",
+      "13 - Never Be Afraid",
+      "14 - Respect Your Superiors",
+      "15 - One Foe, One Blow",
+      "16 - Don't Hesitate",
+      "17 - Believe In Your Strength",
+      "18 - Seek Truth in the Darkness",
+      "19 - If You Try, Succeed",
+      "20 - Speak Only the Truth",
+      "21 - Be Aware of Your Surroundings",
+      "22 - Abandon the Nest",
+      "23 - Identify the Foe's Weak Point",
+      "24 - Strike the Foe's Weak Point",
+      "25 - Protect Your Own Weak Point",
+      "26 - Don't Trust Your Reflection",
+      "27 - Eat As Much As You Can",
+      "28 - Don't Peer Into the Darkness",
+      "29 - Develop Your Sense of Direction",
+      "30 - Never Accept a Promise",
+      "31 - Disease Lives Inside of Dirt",
+      "32 - Names Have Power",
+      "33 - Show the Enemy No Respect",
+      "34 - Don't Eat Immediately Before Sleeping",
+      "35 - Up is Up, Down is Down",
+      "36 - Eggshells are brittle",
+      "37 - Borrow, But Do Not Lend",
+      "38 - Beware the Mysterious Force",
+      "39 - Eat Quickly and Drink Slowly",
+      "40 - Obey No Law But Your Own",
+      "41 - Learn to Detect Lies",
+      "42 - Spend Geo When You Have It",
+      "43 - Never Forgive",
+      "44 - You Can Not Breathe Water",
+      "45 - One Thing Is Not Another",
+      "46 - The World is Smaller Than You Think",
+      "47 - Make Your Own Weapon",
+      "48 - Be Careful With Fire",
+      "49 - Statues are Meaningless",
+      "50 - Don't Linger on Mysteries",
+      "51 - Nothing is Harmless",
+      "52 - Beware the Jealousy of Fathers",
+      "53 - Do Not Steal the Desires of Others'",
+      "54 - If You Lock Something Away, Keep the Key",
+      "55 - Bow to No-one",
+      "56 - Do Not Dream",
+      "57 - Obey All Precepts"
+
+    ]
+  },
+
+  "Hallownest:minionWingedZoteling":{
+    "MOVES" : [],
+    "NAME" : "Winged Zoteling",
+    "DIALOG": []
+  },
+  "Hallownest:minionHoppingZoteling":{
+    "MOVES" : [],
+    "NAME" : "Hopping Zoteling",
+    "DIALOG": []
+  },
+  "Hallownest:minionVolatileZoteling":{
+    "MOVES" : [
+      "2...",
+      "1...",
+      "Boom"
+    ],
+    "NAME" : "Volatile Zoteling",
+    "DIALOG": []
+  },
+
+
+  "Hallownest:eliteHiveKnight": {
+    "MOVES": [
+      "Spewing Swarm",
+      "Lunge",
+      "Leap",
+      "Spiked Honey"
+    ],
+    "NAME": "Hive Knight",
+    "DIALOG": [
+      "When you wake... the Hive...",
+      "Have faith in me!"
+    ]
+  },
+
+
+  "Hallownest:eliteCollector": {
+    "MOVES": [
+      "Hop",
+      "Drop",
+      "Steal",
+      "Call"
+    ],
+    "NAME": "Collector",
+    "DIALOG": [
+      "My love! My love! Protected at last!",
+      "A safe space, for you! And you! And you!"
+    ]
+  },
+
+
+  "Hallownest:StalkingDevout":{
+    "MOVES" : [],
+    "NAME" : "Stalking Devout",
+    "DIALOG": []
+  },
+  "Hallownest:LittleWeaver":{
+    "MOVES" : [],
+    "NAME" : "Little Weaver",
+    "DIALOG": []
+  },
+
+  "Hallownest:ViolentHusk":{
+    "MOVES" : [
+      "Charge",
+      "Burst",
+      "Swell"
+    ],
+    "NAME" : "Violent Husk",
+    "DIALOG": []
+  },
+  "Hallownest:SlobberingHusk":{
+    "MOVES" : [
+      "Hop",
+      "Burst",
+      "Spew"
+    ],
+    "NAME" : "Slobbering Husk",
+    "DIALOG": []
+  },
+
+  "Hallownest:monsterSibling":{
+    "MOVES" : [
+      "Float",
+      "Instinct"
+    ],
+    "NAME" : "Sibling",
+    "DIALOG": []
+  },
+
+  "Hallownest:monsterPrimalAspid": {
+    "MOVES": [
+      "Spew"
+    ],
+    "NAME": "Primal Aspid",
+    "DIALOG": ["Having any Traumatic flashbacks yet?",
+      "You know... they originally planned to have a boss version of me?",
+    "I'm gonna go wait in the Path of Pain to surprise you."]
+  },
+
+  "Hallownest:monsterHiveSoldier": {
+    "MOVES": [
+      "Recoil",
+      "Bee Dance",
+      "Drill Spin",
+      "Dizzy"
+    ],
+    "NAME": "Hive Soldier",
+    "DIALOG": ["...Destroy...",
+      "..Protect the Queen..."]
+  },
+
+  "Hallownest:monsterHiveGuardian": {
+    "MOVES": [
+      "Charging",
+      "Shattering Slam",
+      "Stunned"
+    ],
+    "NAME": "Hive Guardian",
+    "DIALOG": ["...Brothers...Sisters...Mother...",
+      "...Hungry...Tired...Hungry..."]
+  },
+
+  "Hallownest:Zote":{
+    "MOVES" : [
+      "Life Ender",
+      "Frontal Assault",
+      "Recovery",
+      "The Grey Prince",
+      "Flail",
+      "Zoteling"
+    ],
+    "NAME" : "Zote the Mighty",
+    "DIALOG": [
+      "I am Zote the Mighty, a knight of great renown. NL My weapon, 'Life Ender' has struck down hundreds of foes. NL Begone, or you'll be next!",
+      "Know this, cur. I am Zote the Mighty",
+      "Hoy! What are you doing, you clumsy little oaf?",
+      "Go on, cur! Scurry away! Lest I humiliate you further!",
+      "Begone! Lest I draw my nail..",
+      "I'm not interested in your childish games. I need my rest."
+
+    ]
+  },
+
+  "Hallownest:monsterKingsmould": {
+    "MOVES": [
+      "Throw",
+      "Double Swing",
+      "Stand Ground"
+    ],
+    "NAME": "Kingsmould",
+    "DIALOG": ["...Destroy..."]
+  },
+
+  "Hallownest:monsterWingmould": {
+    "MOVES": [
+      "Buzz",
+      "Close"
+    ],
+    "NAME": "Wingmould",
+    "DIALOG": []
+  },
+
+  "Hallownest:monsterShieldedFool": {
+    "MOVES": [
+      "Guard",
+      "Light Slash",
+      "Heavy Slash"
+    ],
+    "NAME": "Shielded Fool",
+    "DIALOG": ["I'll crush it into the dirt!",
+    "...Are we all Fools?..."]
+  },
+  "Hallownest:monsterHeavyFool": {
+    "MOVES": [
+      "Lunge",
+      "Jump Slash"
+    ],
+    "NAME": "Heavy Fool",
+    "DIALOG": ["Fear me, warrior!",
+    "I am the strongest!"]
+  },
+  "Hallownest:monsterSturdyFool": {
+    "MOVES": [
+      "Throw",
+      "Slash",
+      "Recover"
+    ],
+    "NAME": "Sturdy Fool",
+    "DIALOG": ["...Why does it disturb me?...",
+    "You cannot harm me!"]
+  },
+
+
+
+
+  "Hallownest:monsterXero": {
+    "MOVES": [
+      "First Blade",
+      "Second Blade"
+    ],
+    "NAME": "Xero",
+    "DIALOG": []
+  },
+  "Hallownest:monsterElderHu": {
+    "MOVES": [
+      "Ring Slam"
+    ],
+    "NAME": "Elder Hu",
+    "DIALOG": []
+  },
+  "Hallownest:monsterMarmu": {
+    "MOVES": [
+      "Ball Charge"
+    ],
+    "NAME": "Marmu",
+    "DIALOG": []
+  },
+
+
+
+  "Hallownest:monsterGreatHopper": {
+    "MOVES": [
+      "Charge",
+      "Wander",
+      "Skitter",
+      "Emerge"
+    ],
+    "NAME": "Great Hopper",
+    "DIALOG": ["...Hungry...Hungry....",
+      "...Pain...",
+      "...Safe...Dark..."]
+  },
+  "Hallownest:monsterLittleHopper": {
+    "MOVES": [
+      "Charge",
+      "Wander",
+      "Skitter",
+      "Emerge"
+    ],
+    "NAME": "Little Hopper",
+    "DIALOG": ["...Hungry...Hungry...",
+      "...Pain...",
+      "...Safe...Dark..."]
+  },
+  "Hallownest:monsterHornedHusk": {
+    "MOVES": [
+      "Charge",
+      "Wander",
+      "Skitter",
+      "Emerge"
+    ],
+    "NAME": "Husk Hornhead",
+    "DIALOG": ["I can't....Wake up...",
+    "Am I...Sleeping?",
+    "...Safe...Dark..."]
+  },
+
+  "Hallownest:monsterWanderingHusk": {
+    "MOVES": [
+      "Rush",
+      "Sadness",
+      "Skitter",
+      "Emerge"
+    ],
+    "NAME": "Wandering Husk",
+    "DIALOG": ["I can't....Wake up...",
+    "Am I...Sleeping?",
+    "...Safe...Dark..."]
+  }
+}
+
+

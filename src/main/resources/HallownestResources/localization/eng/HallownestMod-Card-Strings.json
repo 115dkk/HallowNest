@@ -1,0 +1,93 @@
+{
+  "Hallownest:Swarmed": {
+    "NAME": "Swarmed",
+    "DESCRIPTION": "Retain. NL At the end of your turn, take 1 damage for each Swarmed in hand. NL Exhaust."
+  },
+  "Hallownest:StolenSoul": {
+    "NAME": "Stolen Soul",
+    "DESCRIPTION": "When this card is drawn, a random card in your hand is discarded. NL Exhaust."
+  },
+
+  "Hallownest:IdeaInstilled": {
+    "NAME": "Idea Instilled",
+    "DESCRIPTION": "While this card is in your hand, gain 2 [#FFA200]Infection whenever you play another card. NL Exhaust."
+  },
+
+  "Hallownest:Obsession": {
+    "NAME": "Obsession",
+    "DESCRIPTION": "When drawn, a random card in hand costs 1 more. If that card is played another will be chosen.  NL  Exhaust. NL ",
+    "EXTENDED_DESCRIPTION": [" Current Obsession: "]
+  },
+
+  "Hallownest:attackFallenFury": {
+    "NAME": "Fury of the Fallen",
+    "DESCRIPTION": "Deal !D! damage. Deals !M! additional damage for every 25% HP you are missing. NL Exhaust. NL ",
+    "UPGRADE_DESCRIPTION": "Innate. NL Deal !D! damage. Deals !M! additional damage for every 25% HP you are missing . NL Exhaust. NL ",
+    "EXTENDED_DESCRIPTION": ["(Will deal !Hallownest:SecondMagic! additional damage.)"]
+  },
+
+  "Hallownest:skillGreenpathMap": {
+    "NAME": "Greenpath Map",
+    "DESCRIPTION": "Unplayable. NL Whenever you draw this card, draw a card and gain !M! Block.",
+    "UPGRADE_DESCRIPTION": "Unplayable. NL Whenever you draw this card, draw a card and gain !M! Block. NL Then discard this card."
+  },
+  "Hallownest:skillCityofTearsMap": {
+    "NAME": "City of Tears Map",
+    "DESCRIPTION": "Unplayable. NL Whenever you draw this card, draw !M! cards.",
+    "UPGRADE_DESCRIPTION": "Unplayable. NL Whenever you draw this card, draw !M! cards. NL Then discard this card."
+  },
+  "Hallownest:skillKingdomsEdgeMap": {
+    "NAME": "Kingdom's Edge Map",
+    "DESCRIPTION": "Unplayable. NL Whenever you draw this card, draw a card and gain !M! Strength.",
+    "UPGRADE_DESCRIPTION": "Unplayable. NL Whenever you draw this card, draw a card and gain !M! Strength. NL Then discard this card."
+  },
+
+  "Hallownest:skillLightsAllure": {
+    "NAME": "Light's Allure",
+    "DESCRIPTION": "If played, lose !Hallownest:SecondMagic! HP and gain !M! Strength. NL If not played, Heal !Hallownest:SecondMagic! and Lose !M! Strength."
+  },
+
+
+  "Hallownest:skillSlugHide": {
+    "NAME": "Slug's Hide",
+    "DESCRIPTION": "Gain !B! Block. NL This card costs 1 less the rest of combat."
+  },
+
+  "Hallownest:skillLeafShield": {
+    "NAME": "Leaf Shield",
+    "DESCRIPTION": "Gain !B! Block. Gain !M! Plated Thorns. Exhaust."
+  },
+
+  "Hallownest:skillHoundingGlaives": {
+    "NAME": "Hounding Glaives",
+    "DESCRIPTION": "Apply !M! Constricted, dealing constant damage to the target at the end of each round. Exhaust."
+  },
+
+  "Hallownest:curseDreamersLament": {
+    "NAME": "Dreamer's Lament",
+    "DESCRIPTION": "Unplayable. NL The first card you play after drawing this card, costs HP equal to it's cost."
+  },
+
+  "Hallownest:attackAdjustingAction": {
+    "NAME": "Readjusting Reaction",
+    "DESCRIPTION": "If the target intends to attack, Gain !B! Block. Otherwise, deal !D! damage."
+  },
+  "Hallownest:attackMasterCycloneSlash": {
+    "NAME": "Master Cyclone Slash",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Increase this card's damage by !M! for the rest of the combat."
+  },
+  "Hallownest:attackMasterDashSlash": {
+    "NAME": "Master Dash Slash",
+    "DESCRIPTION": "Deal !D! damage. NL Gain !B! Block. NL Draw 1 card."
+  },
+
+  "Hallownest:attackPureNailEdge": {
+    "NAME": "Pure Nail's Edge",
+    "DESCRIPTION": "Remove all Block from an enemy. Deal !D! damage."
+  },
+
+  "Hallownest:pwrSporeShroom": {
+    "NAME": "Spore Shroom",
+    "DESCRIPTION": "At the end of each of your turns, if you have not played an Attack, NL heal 2 HP and apply !M! poison to ALL enemies."
+  }
+}

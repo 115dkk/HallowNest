@@ -1,0 +1,231 @@
+{
+        "Hallownest:powerPlatedThorns": {
+                "NAME": "Plated Thorns",
+                "DESCRIPTIONS": ["When Attacked deals #r", " damage back. Receiving unblocked attack damage reduces Plated Thorns by #b1."]
+        },
+        "Hallownest:powerHornetParry": {
+                "NAME": "Parrying",
+                "DESCRIPTIONS": ["Hornet has taken more than #b15% #bHP damage in a turn! Any damage taken will increase the power of her next attack. #r", " increased damage so far."]
+        },
+        "Hallownest:powerInfection": {
+                "NAME": "Infection",
+                "DESCRIPTIONS": ["At the end of the your turn take #b", " blockable damage and reduce [#FFA200]Infection by #b2"]
+        },
+
+        "Hallownest:powerThreatened": {
+                "NAME": "Threatened",
+                "DESCRIPTIONS": ["For #b", " turns, start the turn with #r1 less energy."]
+        },
+        "Hallownest:powerSpewing": {
+                "NAME": "Spewing",
+                "DESCRIPTIONS": ["The vessel is leaking [#FFA200]Infection! in #b", " turns, an [#FFA200]Infected [#FFA200]Balloon will appear."]
+        },
+
+        "Hallownest:powerVeteranFool": {
+                "NAME": "Veteran Fool",
+                "DESCRIPTIONS": ["Whenever you play a card, this creature gains #b", " Block."]
+        },
+
+        "Hallownest:powerCollected": {
+                "NAME": "Collected",
+                "DESCRIPTIONS": ["When this creature is killed, gain an #pObession"]
+        },
+
+        "Hallownest:powerHKParry": {
+                "NAME": "Parrying",
+                "DESCRIPTIONS": ["The Hollow Knight takes 50% less damage, and any damage enhances the effect of his following attack."]
+        },
+
+        "Hallownest:powerBlobSwarm": {
+                "NAME": "BlobSwarm",
+                "DESCRIPTIONS": ["If any of these blobs deal damage, gain 1 Swarmed."]
+        },
+
+        "Hallownest:powerCollectedCard": {
+                "NAME": "Unhealthy Fixation",
+                "DESCRIPTIONS": ["The Collector has stolen ", ". At the end of each turn, it gains #yStrength equal to the card's cost. Damaging the Collector #b", " times in a turn will prevent this and return the card."]
+        },
+        "Hallownest:powerPotentInfection": {
+                "NAME": "Potent Infection",
+                "DESCRIPTIONS": ["Whenever you receive attack damage from this enemy, gain #b", " [#FFA200]Infection."]
+        },
+
+        "Hallownest:powerSageRings": {
+                "NAME": "Rings of the Sage",
+                "DESCRIPTIONS": ["Whenever Elder Hu gives Block to a creature, they recover #b", "% of their missing health."]
+        },
+
+        "Hallownest:powerNailReturn": {
+                "NAME": "Returning Nail",
+                "DESCRIPTIONS": ["At the end of your next turn, take #b", " damage."]
+        },
+
+        "Hallownest:powerRagin": {
+                "NAME": "Ragin'",
+                "DESCRIPTIONS": ["Whenever this creature takes #b"," damage in a turn, it gains #yStrength. After taking #b",
+                        " more damage, this creature will gain #b", " #yStrength."]
+        },
+        "Hallownest:powerGrandChallenge": {
+                "NAME": "The Grand Challenge",
+                "DESCRIPTIONS": ["Increases attack damage dealt and taken by #r"]
+        },
+        "Hallownest:powerSoulMasterConsumed": {
+                "NAME": "Consumed Soul",
+                "DESCRIPTIONS": ["The Soul Master has Absorbed the Stolen Soul, Burn and Void cards in your deck in order to recover, this will not happen again."]
+        },
+        "Hallownest:powerSoulMasterStunned": {
+                "NAME": "Drained",
+                "DESCRIPTIONS": ["Having lost half his health, the Soul Master is drained of Soul and must find a new source."]
+        },
+        "Hallownest:infoFluke": {
+                "NAME": "Hunter's Tip: Flukes",
+                "DESCRIPTIONS": ["This creature's movements are strange, as if each part of it's body has a mind of it's own."]
+        },
+        "Hallownest:infoHiveGuardian": {
+                "NAME": "Hunter's Tip: Hive Guardian",
+                "DESCRIPTIONS": ["These creatures can slam down and dispel any ally's ailments and protect them. Thankfully, it seems they cannot do this too frequently."]
+        },
+        "Hallownest:infoInfHusks": {
+                "NAME": "Hunter's Tip: Infected Husks",
+                "DESCRIPTIONS": ["These Creatures damage themselves with every action"]
+        },
+
+        "Hallownest:infoHornet": {
+                "NAME": "Hunter's Tip: Hornet",
+                "DESCRIPTIONS": ["Be Wary, Some Hunters become far more dangerous when cornered."]
+        },
+
+        "Hallownest:infoMosskin": {
+                "NAME": "Hunter's Tip: Mosskin",
+                "DESCRIPTIONS": ["Seldom have I seen so much Infection, its corpse alone could be a danger."]
+        },
+
+        "Hallownest:infoMarmu": {
+                "NAME": "Hunter's Tip: Marmu",
+                "DESCRIPTIONS": ["This creature becomes significantly weaker when his guard is down."]
+        },
+
+        "Hallownest:infoCreeper": {
+                "NAME": "Hunter's Tip: Skittering",
+                "DESCRIPTIONS": ["Strange skittering sounds come from within this creature's carapace, what could it mean?"]
+        },
+
+        "Hallownest:FlameCastPower": {
+                "NAME": "Preparing Flame Cast",
+                "DESCRIPTIONS": [
+                        "After Charging up Grimm will absorb all remaining block, and deal that amount of damage"
+                ]
+        },
+        "Hallownest:FlameCloakPower": {
+                "NAME": "Flame Cloak",
+                "DESCRIPTIONS": [
+                        "When Attacked, return #b",
+                        " Damage to the attacker. Loses half its stacks each turn."
+                ]
+        },
+        "Hallownest:powerFoolEater": {
+                "NAME": "Fool's Trap",
+                "DESCRIPTIONS": [
+                        "Fool Eater is waiting, after playing #b",
+                        " cards, the Fool Eater will attack for #r",
+                        " #yBase damage.",
+                        "The Fool Eater's Trap has been sprung! After Attacking, It's next trap will be even deadlier."
+                ]
+        },
+        "Hallownest:powerReinforcements": {
+                "NAME": "Reinforcements",
+                "DESCRIPTIONS": [
+                        "This creature is not the last, there are #b",
+                        " reinforcements remaining."
+                ]
+        },
+
+        "Hallownest:powerPrecepts": {
+                "NAME": "57 Precepts of Zote the Mighty",
+                "DESCRIPTIONS": [
+                        "Whenever you play a card, Zote will recite a precept, after reaching the #p57th precept, Zote will #gRegain #g50% #gHis #gMissing #gHealth. Precepts remaining: #b",
+                        "."
+                ]
+        },
+
+        "Hallownest:powerReadjusting": {
+                "NAME": "Readjusts",
+                "DESCRIPTIONS": [
+                        "Gains Block after you use an Attack, Gains Strength after you use a Skill, and Heals after you play a Power."
+                ]
+        },
+        "Hallownest:powerTragicImmortality": {
+                "NAME": "Tragic Immortality",
+                "DESCRIPTIONS": [
+                        "At the Start of its turn, this creature heals #g",
+                        " #gHealth for every #b1 or #b0 cost card you played during your turn. Currently going to heal: #g"
+                ]
+        },
+        "Hallownest:powerFlying": {
+                "NAME": "Flying",
+                "DESCRIPTIONS": [
+                        "Receives 50% less attack damage. Cancelled if dealt attack damage #b",
+                        " times in one turn."
+                ]
+        },
+        "Hallownest:powerHivesBlood": {
+                "NAME": "Hive's Blood",
+                "DESCRIPTIONS": [
+                        "This creature took #b",
+                        " damage last turn, if it does not take damage this turn, it will heal that amount."
+                ]
+        },
+
+        "Hallownest:powerVigilant": {
+                "NAME": "Knight's Vigil",
+                "DESCRIPTIONS": [
+                        "Whenever he takes #b",
+                        " damage, Hive Knight will cycle his next move: Lunge->Leap->Spiked Honey. The damage required will then Increase. Spewing Swarm #rcannot Cycle. Damage left: #b"
+                ]
+        },
+
+        "Hallownest:powerQueensSwarmPlayer": {
+                "NAME": "The Queen's Swarm",
+                "DESCRIPTIONS": [
+                        "At the end of the round, take #b",
+                        " damage, and decrease this by #b1. Shifts between #rdamaging you or #bguarding the Knight, when he #rattacks or #bblocks."
+                ]
+        },
+        "Hallownest:powerQueensSwarmKnight": {
+                "NAME": "The Queen's Swarm",
+                "DESCRIPTIONS": [
+                        "At the start of the round, this creature gains #b",
+                        " Block, and decrease this by #b1. Shifts between #rdamaging you or #bguarding the Knight, when he #rattacks or #bblocks."
+                ]
+        },
+
+        "Hallownest:powerExposure": {
+                "NAME": "Exposure",
+                "DESCRIPTIONS": [
+                        "At the start of your next turn, gain #b",
+                        " #yVulnerable."
+                ]
+        },
+        "Hallownest:powerRich": {
+                "NAME": "Wealthy",
+                "DESCRIPTIONS": [
+                        "After dealing #b",
+                        " damage to this creature, it loses #b1 #yStrength, and you gain #y10 #ygold. Currently holding #y",
+                        " #yGold."
+                ]
+        },
+        "Hallownest:powerCrimsonFlame": {
+                "NAME": "Crimson Flames",
+                "DESCRIPTIONS": ["Increases attack damage taken by #r",
+                        ". loses #b1 stack at the start of your turn."]
+        },
+
+        "Hallownest:powerSporeShroom": {
+                "NAME": "Spore Shroom",
+                "DESCRIPTIONS": [
+                        "At the end of your turn, if you have not played an Attack, heal #g",
+                        " #gHP and apply #b",
+                        " #ypoison to ALL enemies."
+                ]
+        }
+}

@@ -1,0 +1,927 @@
+{
+
+  "Hallownest:ACT_1_EVENTS": {
+    "NAME": " The Following Are The Events from Greenpath: ACT 1",
+    "DESCRIPTIONS": [],
+    "OPTIONS": []
+  },
+
+
+  "Hallownest:ElderbugEvent": {
+    "NAME": "Advice of Elderbug",
+    "DESCRIPTIONS": [
+      "A sage, kindly looking bug stares distantly beside an Iron Bench. NL \"Ho there, traveller. I'm afraid there's only me left to offer welcome. NL Our town's ~fallen~ ~quiet~ you see. NL That bench may be iron, but I assure you it's quite #gcomfortable. NL I wouldn't mind a bit of company either!\"",
+      "\"Used to be there was a #ygreat #ykingdom beneath our town. NL It's long fell to ~ruin,~ yet it still draws folks into its depths. NL #pWealth, #pGlory, #pEnlightenment, that darkness seems to promise all things. I'm sure you too seek your dreams down there. NL Well watch out. It's a ~sickly~ ~air~ that fills the place. Creatures turn @mad@ and travellers are @robbed@ of their memories.\"",
+      "The bug keeps talking but you quickly fall out of earshot.",
+      "\"Many used to come, hoping the kingdom would fulfill their desires. NL @Hallownest@ it was once called. NL Supposedly the #ygreatest #ykingdom there ever was, full of ~treasures~ and ~secrets.~ NL Hm. Now it's nothing more than a poisonous tomb full of #rmonsters and #rmadness.\""
+    ],
+    "OPTIONS": [
+      "[Leave]",
+      "[Rest There] #gTransform #ga #gcard #gin #gyour #gdeck.",
+      "[Keep Elderbug Company] #gUpgrade #ga #gcard #gin #gyour #gdeck.",
+      "[Hurry on] #gRemove #ga #gcard #gfrom #gyour #gdeck.",
+      "Choose a Card to Transform.",
+      "Choose a Card to Upgrade.",
+      "Select a Card to Remove.",
+      "[Locked] Requires: Upgradeable Cards"
+    ]
+  },
+  "Hallownest:HunterEvent": {
+    "NAME": "Nest of The Hunter",
+    "DESCRIPTIONS": [
+      "Sharp protrusions border the entrance to what seems a dark cave. NL As you approach, the light of 6 predatory #yeyes fills that darkness."
+    ,"\"You approach #pfearless... Are you a ~hunter~ like me? NL Do you feel the urge inside, to @stalk,@ to @kill,@ to @understand?@ NL Then show me. #yProve #yyourself #yworthy. NL What ~prey~ will you seek?\""
+    ],
+    "OPTIONS": [
+      "[Continue]",
+      "[Easy Prey] Encounter a #rnormal enemy.",
+      "[Challenging Prey] Encounter an #relite enemy.",
+      "[Ultimate Prey] Skip directly to the #rAct #rBoss."
+    ]
+  },
+  "Hallownest:StagwaysEvent1": {
+    "NAME": "Stagways of Greenpath",
+    "DESCRIPTIONS": [
+      "As you wander through The Greenpath, you find a large tunnel carved long ago. You hear a great @rumbling.@ Through the tunnel charges a massive stag beetle! NL \"My, this place much changed since I last saw it. The greenery grows so #gwild the station's like to be consumed by it. NL These stagways stretch the depths of #yHallownest. If you want to travel them, hail me from the platform. I will take you where you need to go.\" NL NL \"So... Shall we travel together?\"",
+      "With you in tow you the Stag charges onward, soon you find yourself in a station right underneath a mostly abandoned town. NL \" This place... we are near the surface, I believe? There is a town here. NL This place was once full of travellers coming and going. It seems much quieter now. Shall we continue on together?\"",
+      "\"I've enjoyed the chance to once more travel with others, I've grown stiff and tired over these many years and I've forgotten much, but the sound of the bell will always call me back.\"",
+      " Continuing on, the surroundings grow even more #glush than before. A station covered in overgrowth. NL \" I'd almost forgotten this station existed. It was not often used by the common bugs, being a well-guarded retreat for our late Queen. NL Even as overgrown as they've become, these gardens are still beautiful after all this time.\"",
+      "\"You've opened several stag stations now, haven't you? I'm thankful for the opportunity to once more travel through the kingdom. NL As I visit more places I feel my #pmemories returning to me, like the stagways of my ~mind~ are ~running~ once more. NL Continue to open the stations and you'll have my #yDeepest #yGratitude. NL For now, take #ythis. I hope to see you again my friend.\"",
+      "The old beetle seems a bit sad as he watches you leave."
+    ],
+    "OPTIONS": [
+      "[Leave]",
+      "[Unlock the Next Station] Costs #y",
+      " #yGold ",
+      "[Stop Here] #gGain #g5 #gMax #gHP",
+      "[Accept] #gGain #ga #gUnique #gRelic.",
+      "[Locked] Requires #y",
+      " #yGold.",
+      "[Continue]"
+    ]
+  },
+  "Hallownest:NailmasterSheoEvent": {
+    "NAME": "The Artist's Hut",
+    "DESCRIPTIONS": [
+      "Surrounded by sharp #rthorns and #gverdant foliage, a stone hut is set into the ground.",
+      "\"A visitor! Why have you crept in here? Perhaps, like me, you have a taste for discovering #pnew #pthings? NL I am Sheo, and in a previous life I was a Nailmaster. NL I imagined it was my one calling in life, but that feeling faded over time. Now I seek a new calling. NL That's why I spend my time here, secluded, trying to master the art of #pcreation. NL Was it ~Sheo~ ~the~ ~Nailmaster~ you were looking for? Did you come to learn a #yNail #yArt? I'll teach you if you insist...  \"",
+      "Eh, probably nothing good inside anyway.",
+      "\"So! My work, does it ~move~ you? The #pwielding of a nail, the #pwielding of a brush... these things are not so different.\"",
+      "\"Seems there is nothing you can learn from me\""
+    ],
+    "OPTIONS": [
+      "[Leave]",
+      "[Enter]",
+      "[Learn Nail Art] #gUpgrade #g2 #grandom #gAttacks #gin #gyour #gdeck ",
+      "[Learn Paint Art] #gTransform #ga #grandom #gbasic #gAttack #gcard.",
+      "[Learn Brush Combat] #gGain #gSheo's #gBrush #gRelic.",
+      "[Locked] Requires: A card that Costs 3 or more.",
+      "[Locked] Requires: Starting Attacks in Deck",
+      "[Locked] Requires: More Upgradable Attacks"
+
+    ]
+  },
+
+  "Hallownest:GrimmEvent": {
+    "NAME": "A Grand Performance",
+    "DESCRIPTIONS": [
+      "Walking through the crimson tarp of the tent, a tall bug with an oppressive gaze greets you.",
+      "\"The lantern has been lit, and your summons heeded. NL A fine stage you choose, this kingdom fallowed by #yworm and #groot. NL Perfect earth upon which our #rRitual shall take place. NL NL \"Perform with me my friend, ~The~ ~Crowd~ ~awaits...~ \" NL It is not stated as a request.",
+      "\"Bravo, my friend. Hear how the crowd adores you! NL They've not seen such a show in a long time.\"",
+      "\" #rUnwise...  NL Yet so we part ways...      for ~now.~ \" NL NL \"Our #rscarlet #reyes will watch you keenly... @friend.@ \"",
+      " \"The air hums with @excitement.@ NL Let your #rfire #rburn even #rbrighter!\""
+    ],
+    "OPTIONS": [
+      "[Continue]",
+      "[Perform with Grimm] #rLose #r",
+      " #rHP. #g",
+      "%: #gGain #g2 #grandom #gRelics.",
+      "[Banish Grimm] #rLose #r",
+      " #rMax #rHP. #gRemove #g2 #gcards #gfrom #gyour #gdeck.",
+      "[Defy Grimm] Leave and #rTake #r",
+      " #rdamage.",
+      "Select 2 Cards to Remove.",
+      "[Leave]"
+    ]
+  },
+  "Hallownest:ZoteEvent1": {
+    "NAME": "The 57 Precepts of Zote the Mighty: Act 1",
+    "DESCRIPTIONS": [
+      "Before your path stands a bug, small in stature. Yet something about him... you find deeply ~unsettling.~ NL NL \"I see you want to learn the secret of my prowess! NL The key is in my personal philosophy, the #p'Fifty-Seven #pPrecepts #pof #pZote' Which would you like to hear?\"",
+      "\"Precept Ten: #p'Keep #pYour #pWeapon #pSharp'. NL NL I make sure that my weapon, ~Life~ ~Ender,~ is kept well-sharpened at all times. This makes it much easier to cut things.\"",
+      "\"Precept Seventeen: #p'Believe #pIn #pYour #pStrength'. NL NL Others may doubt you, but there's someone you can always trust. Yourself. NL Make sure to believe in your own #ystrength, and you will never falter.\"",
+      "\"Precept Twenty-One: #p'Be #pAware #pof #pYour #pSurroundings'. NL NL Don't just walk along staring at the ground! NL You need to look up every so often, to make sure nothing takes you by @surprise.@ \"",
+      "You are certain you learned nothing useful from this. NL In fact you may have died inside just a little. NL You should #yleave before you have to hear more."
+    ],
+    "OPTIONS": [
+      "[Continue]",
+      "[Precept 10] #rLose #rUpgrades #rto ",
+      "[Downgrade an Attack] Requires: Upgraded Attack.",
+      "[Precept 17] #rBecome #rCursed #r- #rDoubt.",
+      "[Precept 21] #rTake #r",
+      " #rdamage.",
+      "[Leave]"
+    ]
+  },
+  "Hallownest:DreamersSpecialEvent": {
+    "NAME": "Shrine of the Three Dreamers",
+    "DESCRIPTIONS": [
+      "Amidst a scattered host of tombs, lies a large dais. Atop it sits 3 grand masked obelisks, turned towards a seal of binding.",
+      " #yMonomon #ythe #yTeacher NL In her Archive, surrounded by fog and mist. NL #bLurien #bthe #bWatcher NL In his Spire, looking over the city. NL #pHerrah #pthe #pBeast NL In her Den, amidst the deep darkness beyond the kingdom.",
+      " Three voices fill your mind. NL \" #bWhat #bcompels #bits #bclimb #bout #bof #bthe #bdarkness? \" NL \" #pWould #pthe #pSeals #pbreak? #pThey #pcannot #pbe #pundone. \"  NL \" #yThey #ymust #ybe #yundone \" NL \" #bYet #bstill #bour #bSeals #bremain. #bOur #bduty #bholds. \"  NL  \" #pIt #pmust #pbe #pcast #paway. \" NL \" #bFade #baway, #blittle #bshadow. #bFade #baway, #band #blet #bus #bsleep #bin #bpeace.\"",
+      "You find yourself trapped inside a dream. NL Standing alone on a Stone Platform with nothing but emptiness and endless pale light around you.",
+      "On this desolate, lonely platform. In the infinity of the dream, you remain. ",
+      "A faint shimmer, the form of a winged bug, lingers just out of reach. As you look closer, the dust coalesces into steps towards the distant Moth.",
+      "\"What a terrible fate they've visited upon you. To cast you away into this space between body and soul. NL Will you accept their judgement and fade slowly away? NL Or will you take the weapon before you, and cut your way out of this sad, forgotten dream?\"",
+      "The dream falls apart around you. Allowing you to continue on your way."
+    ],
+    "OPTIONS": [
+      "[Continue]",
+      "[Examine the Seal]",
+      "[Wait]",
+      "[Continue Waiting]",
+      "[Jump from the Platform] #rTake #r",
+      " #rdamage, Escape the Dream.",
+      "[Follow the Moth] ??? ",
+      "[Cut Free of the Dream] #gGain #gthe #gDream #gNail." ,
+      "[Reject the Seer] Leave the Dream.",
+      "[Leave]"
+    ]
+  },
+
+  "Hallownest:FallenFuryEvent": {
+    "NAME": "Memories of Pain and Rage",
+    "DESCRIPTIONS": [
+      "Before you lies the remains of a @colossal@ dead bug, and a small case with something within. NL Though the creature seems long dead, a sense of #ranger and #rloss fills you to your core.",
+      "Yes, you can understand the #rpain and #ranger of this ancient creature. NL A brother, lost to #btime and #bregret. NL You find #ysomething within the case... and ~yourself.~ ",
+      "You purge the sense of ~sadness~ from you.",
+      "You take the #ygold from the case. NL You know you are #rnot #rworthy to remain here."
+    ],
+    "OPTIONS": [
+      "[Leave]",
+      "[Understand Loss] #gGain ",
+      "[Banish the Sorrow] #rLose #r",
+      " #rHP, #gRemove #ga #gcard #gfrom #gyour #gdeck.",
+      "[Rob the Grave] #gGain #g",
+      " #gGold. #rBecome #rCursed #r- #rShame.",
+      "Select a Card to Remove.",
+      "[Locked] Requires: Below 50% HP."
+    ]
+  },
+
+  "Hallownest:GhostsofGreenpath": {
+    "NAME": "Ghost of Greenpath",
+    "DESCRIPTIONS": [
+      "An ancient, #gmossy stone marks the grave of some long dead warrior. NL There's a small #yoffering on the grave you could either take the #yoffering, or #pleave something there yourself.",
+      "The dead have no need for #ycoin, after all.",
+      "You leave an offering, and continue on your way.",
+      "The offering has roused the #pdream #pwarrior!",
+      "The Warrior is now at rest."
+    ],
+    "OPTIONS": [
+      "[Take the Offering] #gGain #y",
+      " #yGold.",
+      "[Leave a Small Offering] #gRemove #ga #gCard. #r",
+      "%: #rFace #ra #rGhost.",
+      "[Leave a Large Offering] #gRemove #g2 #gCards. #r",
+      "[Fight]",
+      "[Leave]",
+      "Select a Card to Offer",
+      "Select 2 Cards to Offer"
+    ]
+  },
+
+  "Hallownest:IseldasKeepingEvent": {
+    "NAME": "Iselda's Safekeeping",
+    "DESCRIPTIONS": [
+      "Within a small shop, a bored looking bug rests against the counter. NL NL \"If you were looking for ~Corny,~ you just missed him. He left me #ysomething to give you though. NL He said he was following behind you and picking #ythis up as you went. NL I'd just as soon keep it to be honest. But it's your's if you want it?\"",
+      "\"If you see my husband down there, tell him to come back again soon!\""
+    ],
+    "OPTIONS": [
+      "[Leave]",
+      "[Accept]  #gGain #g",
+      " #gGold.",
+      "[Let her keep it] #gUpgrade #ga #gRandom #gSkill.",
+      "[Locked] Requires: an Upgradable Skill."
+
+    ]
+  },
+
+  "Hallownest:WhiteLadyEvent": {
+    "NAME": "The White Lady",
+    "DESCRIPTIONS": [
+      "Inside a small dwelling, guarded by a long dead knight, sits the Queen of Hallownest. NL  Though her iridescent eyes strain to see you, knowledge and power remain within.",
+      "Inside a small dwelling, guarded by a long dead knight, sits the Queen of Hallownest. NL  Though her iridescent eyes strain to see you, knowledge and power remain within. NL NL ~So~ ~it~ ~can~ ~access~ ~a~ ~mind?~ ~Then~ ~the~ ~seals~ ~shall~ ~break~ ~before~ ~its~ ~blade.~ ",
+      "\"Do I seem prisoner here? If so, it's not by any choice but my own. NL These bindings about me, I've chosen to erect. NL There is some shame I feel from my own part in the deed, and this method guarantees it cease.\"",
+      "\"Have you seen the Gendered Child? She's a fierce foe, strong in mind and body. NL If your paths were ever to align, I imagine you might gain yourself a powerful ally.\""
+    ],
+    "OPTIONS": [
+      "[Beseech the Queen]  #gMax #gHP #g+",
+      ". #rBecome #rCursed #r- #rWrithe.",
+      "[Beseech the Queen]  #gMax #gHP #g+",
+      ".",
+      "[Pay Homage] #y",
+      " #yGold: #gHeal #g50% #gMissing #gHP: #g",
+      "[Seek Wisdom] #gGain #gRegen #gPotion",
+      "[Dream Nail] ???",
+      "[Locked] Requires: #y",
+      " #yGold.",
+      "[Leave]"
+    ]
+  },
+
+
+  "Hallownest:SalubrasShopEvent": {
+    "NAME": "Salubra's Shop",
+    "DESCRIPTIONS": [
+      "Within this shop is an exuberant slug. NL  \" Charms! Relics! Sparks of Fashion! I can see you've started your own collection. NL  Very nice! I'll show you some of my own, and you can take one home with you if you like!\"",
+      "\"You must come back and visit from time to time. NL  Such a dashing figure frequenting my store.  NL I bet the whole village is jealous. Mmm hmm!\"",
+      "\"My dear. A blessing for you. NL With your extensive collection, those startling good looks, you've more than earned it. NL  Mmmmmm yess... I hope my blessing brings you everything you desire!\""
+    ],
+    "OPTIONS": [
+      "[Leave]",
+      "[Random Common Relic] Costs #y",
+      " #yGold.",
+      "[Odd Mushroom] Costs #y",
+      " #yGold.",
+      "[Salubra's Blessing] For a fellow Charm Lover.",
+      "[Locked] Requires: 3 Relics.",
+      "[Locked] Requires: #y",
+      " #yGold."
+    ]
+  },
+
+
+  "Hallownest:BankEvent1": {
+    "NAME": "The Banker Bug",
+    "DESCRIPTIONS": [
+      "Someone appears to have opened a #ybank within this area. NL  \"Hello there dearie. I was about to close up shop and run, till you came along. NL I provide a banking service if you're interested. Losing one's #yGold is a terrible thing. NL It's so much more likely if you carry it about on yourself. Maybe you'd considered opening an account? \"",
+      "\"You're a smart one. Next time some #rdreadful #rbeastie gets the best of you, you'll be glad to know your #yGold's ~safe~ within my #pshel- errr...my #pvault. \"",
+      "\"You're a smart one. Next time some #rdreadful #rbeastie gets the best of you, you'll be glad to know your #yGold's ~safe~ within my #pshel- errr...my #pvault. \" NL NL ~..When~ ~next~ ~to~ ~return~ ~to~ ~that~ ~delightful~ ~spa?...~ ~The~ ~waters~ ~so~ ~ease~ ~the~ ~tension~ ~in~ ~my~ ~shell...~ ",
+      "\"I understand. It's difficult to part with hard won #yGold. I'll be here if you change your mind.\""
+    ],
+    "OPTIONS": [
+      "[Leave]",
+      "[Open an Account] Costs #y",
+      " #yGold.",
+      "[Full Financial Security] Open an Account and Store ALL your #yGold.",
+      "[Dream Nail] ???",
+      "[Locked] Requires: #y",
+      " #yGold."
+    ]
+  },
+
+  "Hallownest:CorniferEvent1": {
+    "NAME": "Greenpath Cartographer",
+    "DESCRIPTIONS": [
+      "An enthusiastic humming fills the air. Its source seems to be nearby.",
+      " A curious bug sits in a safe hovel, busily scribbling away on a parchment. NL \" Hmm? Ah, hello there. My name is Cornifer, and I've always loved exploring the world.  I'm a cartographer by trade, and I'm working on mapping this area right now. Would you like to buy a copy of my work so far? \"",
+      "\"Such a humid, lively place. NL  The roads twist and turn in the most wonderful ways... NL I've done my best to chart the area ahead.\"",
+      "\"Not interested, then? Yes, quite understandable. NL Perhaps we'll meet again on our travels. \""
+    ],
+    "OPTIONS": [
+      "[Leave]",
+      "[Search] Follow the humming.",
+      "[Purchase a Map] #y",
+      " #yGold. #gGain #gGreenpath's #gMap #gCard.",
+      "[Locked] Requires: #y",
+      " #ygGold."
+
+    ]
+  },
+
+
+  "Hallownest:LakeofUnnEvent": {
+    "NAME": "The Lake of Unn",
+    "DESCRIPTIONS": [
+      "In this misty lake of acid, a massive slug emerges. Though it remains silent, It seems clear that the higher being is offering you a choice.",
+      "You choose the way of the Leaf, as many moss knight's have before you.",
+      "You choose to mold your path according to the shaping of Unn.",
+      "You are fine the way you are, and don't feel like changing for anyone else."
+    ],
+    "OPTIONS": [
+      "[Way of Unn] #gRemove #gall Defends. #gReceive #g5 Slug's Hides.",
+      "[Way of Moss] #gRemove #gall Defends. #gReceive #g5 Leaf Shields.",
+      "[Make your own Way] Leave this place.",
+      "[Leave]"
+    ]
+  },
+
+  "Hallownest:TeachersArchiveEvent": {
+    "NAME": "The Dreamer in the Archive",
+    "DESCRIPTIONS": [
+      "Amidst a lake of ~acid,~ a masked gate stands in front of a overgrown building. NL Beside the gate stands the amnesiac bug Quirrel.",
+      "\"I can't help but feel... familiarity? NL Something stirs in my mind, though I can't yet tell what... This building beckons me. NL Assist me in my task friend? NL It may be dangerous, but I realise it's no coincidence we arrive together.\"",
+      "The battle is hard-fought, and though the creature seems invulnerable, Quirrel exposes its core and you are victorious! (Pending actual Combat Encounter with Quirrel as an ally coming later).",
+      "\" She called me here, now, to reverse that protection. NL All in aid of #yyou. NL Why do you hesitate? Mercy is a fine thing, but you and her agree this must be done. Be brave, friend.\"",
+      "\" She called me here, now, to reverse that protection. NL All in aid of #yyou. NL Why do you hesitate? Mercy is a fine thing, but you and her agree this must be done. Be brave, friend.\" NL NL ~The~ ~Vessel~ ~weakens.~ ~That~ ~plague~ ~springs~ ~anew.~ ",
+      "You feel your purpose here is fulfilled, you continue on your way.",
+      "\"The Madam's life is extinguished and with it her seal breaks. It's a heavy thing you attempt, but I've seen your prowess up close and she too believed you capable.\"",
+      "\"Hallownest is a vast and wondrous thing, but in as many wonders as it holds, I've seen none quite so intriguing as you. NL Ha. My flattery returns only silent stoicism. NL I like that. NL I like that very much.\""
+    ],
+    "OPTIONS": [
+      "[Leave]",
+      "[Talk to Quirrel]",
+      "[Fight alongside Quirrel!] Push through the beast to reach Monomon.",
+      "[Break the Seal] #gGain #ga #gUnique #gRelic. #rBecome #rCursed #r- #rDreamer's #rLament",
+      "[Hear Quirrel's Story] #gGain #g1 #gcolorless #gand #g1 #gnormal #gcard.",
+      "[Leave the Archive] Be on your way",
+      "[Use the Dream Nail] Release the Dreamer.",
+      "[Break the Seal] #gGain #ga #gUnique #gRelic.",
+      "[Locked] Requires: Dream Nail Relic.",
+      "[Continue]"
+
+    ]
+  },
+
+
+
+
+
+  "Hallownest:ACT_2_EVENTS": {
+    "NAME": " The Following Are The Events from City of Tears: ACT 2",
+    "DESCRIPTIONS": [],
+    "OPTIONS": []
+  },
+
+
+
+
+  "Hallownest:WatchersTowerEvent": {
+    "NAME": "The Dreamer in the Tower",
+    "DESCRIPTIONS": [
+      "Ascending a lift, you find yourself in a high-perched observatory, looking down on the city far below.",
+      "On the dais lies Lurien, The Watcher of Hallownest. NL  His eternal dream keeps the City and Kingdom locked in stasis, unable to Die or Recover.",
+      "On the dais lies Lurien, The Watcher of Hallownest. NL  His eternal dream keeps the City and Kingdom locked in stasis, unable to Die or Recover. NL NL \"For this city and for King beloved, I become bound upon the Vessel. NL That black choice made, but not by me. Our King claimed that burden. NL My lot is easier, only to sleep and to serve. \" ",
+      "The Deed is done. The Watcher now laid to rest. No mourning, no tears, save those of the city he swore to protect.\"",
+      "You continue on our way."
+    ],
+    "OPTIONS": [
+      "[Leave]",
+      "[Break the Seal] #gGain #ga #gUnique #gRelic. #rBecome #rCursed #r- #rDreamer's #rLament",
+      "[Leave the Tower] Be on your way",
+      "[Use the Dream Nail] Release the Dreamer.",
+      "[Break the Seal] #gGain #ga #gUnique #gRelic.",
+      "[Locked] Requires: Dream Nail Relic.",
+      "[Continue]"
+
+    ]
+  },
+
+  "Hallownest:CorniferEvent2": {
+    "NAME": "City Cartographer",
+    "DESCRIPTIONS": [
+      "A familiar pleasant humming fills the air, and you can see small scraps of parchment on the ground. NL Their source seems to be nearby.",
+      " The Cartographer sits on the stone floor, making marks on a piece of parchment. NL \"Isn't this a change from those twisting natural caverns? NL The rain does cast something of a sadness upon it all but the architecture is simply splendid... Charting such a different space is quite the challenge. NL Perhaps you'd care to purchase a copy of my achievements so far?\"",
+      "\"We've both come far to reach this grand place. NL While I'm about these buildings, I must remember to collect a trinket or two for Iselda.\"",
+      "\"Not interested, then? Yes, quite understandable. NL Perhaps we'll meet again on our travels. \""
+    ],
+    "OPTIONS": [
+      "[Leave]",
+      "[Search] Follow the humming.",
+      "[Purchase a Map] #y",
+      " #yGold. #gGain #gCity #gof #gTears #gMap #gCard.",
+      "[Locked] Requires: #y",
+      " #yGold."
+
+    ]
+  },
+
+
+
+  "Hallownest:EmilitiaEvent": {
+    "NAME": "Eternal Emilitia",
+    "DESCRIPTIONS": [
+      "Hidden behind the stone walls sits a gleeful bug of clear high birth.  NL \"Ah, what a surprise! It's not often I receive visitors. It's been so long. Ages even. I just hope my manners haven't left me. NL I think... I should offer a token of my hospitality?\" ",
+      "\"You've no doubt sensed my #yaffluence. I'm #yrenowned amongst the upper caste of @Hallownest.@ NL ...Well I was... once, until those #rcretins cast me out. You've likely met them outside, their bodies shambling around mindless. NL And I'm still alive to witness their demise. Ahhh, I'm just so happy. NL Fate can be a ~wonderful~ thing.\"",
+      "\"In times past I wouldn't have spoken with your likes, but now the rest of my caste are wonderfully, distantly deceased. \""
+    ],
+    "OPTIONS": [
+      "[Leave]",
+      "[Common Token] Choose between 3 common relics.",
+      "[Uncommon Token] Choose between 3 paired uncommon relics and curses.",
+      "[Accept] #gGain ",
+      " : #rBecome #rCursed #r- "
+    ]
+  },
+
+  "Hallownest:ZoteEvent2": {
+    "NAME": "The 57 Precepts of Zote the Mighty: Act 2",
+    "DESCRIPTIONS": [
+      "Between you and the path forward stands Zote. NL Oh no. He's noticed you. NL NL \"Back again, you soggy vagabond? NL You must be eager for more of my wisdom! the #p'Fifty-Seven #pPrecepts #pof #pZote' Which would you like to hear this time?\"",
+      "\"Precept Twenty-Five: #p'Protect #pYour #pOwn #pWeak #pPoint'. NL NL Be aware that your foe will try to identify your #rweak point, so you must #yprotect it. NL  The ~best~ protection? Never having a #rweak point in the first place.\"",
+      "\"Precept Twenty-Eight: #p'Don't #pPeer #pInto #pthe #pDarkness'. NL NL If you peer into the darkness and can't see anything for too long, your mind will start to linger over ~old~ ~memories.~  NL Memories are to be avoided, as per #pPrecept #pFour.\"",
+      "\"Precept Thirty-Seven:: #p'Borrow, #pBut #pDo #pNot #pLend'. NL NL Don't just walk along staring at the ground! NL You need to look up every so often, to make sure nothing takes you by @surprise.@ \"",
+      "You have learned something vital. Words can cause harm. Especially if they are very ~very~ dumb."
+    ],
+    "OPTIONS": [
+      "[Continue]",
+      "[Precept 25] #rBecome #rCursed #r- #rDoubt.",
+      "[Precept 28] #rFace #rMonsters #rwith #rno #rRewards.",
+      "[Precept 37] #rLose #y",
+      " #yGold.",
+      "[Locked] Requires: ",
+      " Gold.",
+      "[Leave]"
+    ]
+  },
+
+  "Hallownest:NailmasterMatoEvent": {
+    "NAME": "A Long Desired Disciple",
+    "DESCRIPTIONS": [
+      "Within a dark somber cave, an entrance to a domicile appears.",
+      "\"Hm? Ah, well met! Yes, I thought I could sense the aura of a fierce warrior approaching. No, don't speak a word. NL I, Nailmaster Mato, who was taught the #pArt #pof #pthe #pNail by the Great Nailsage himself, hereby accept you as my pupil! Let us begin the lesson immediately!\"",
+      "Eh, probably nothing good inside anyway.",
+      "\"I hope you don't think me too forward when I say that I consider you to be my child. NL Yes! When I saw you perform my Nail Art I felt a bond between us suddenly flash into existence!\"",
+      "\"Do not fret. I too was once like you, unsure of my own strength.\""
+    ],
+    "OPTIONS": [
+      "[Leave]",
+      "[Enter]",
+      "[Learn Nail Art] #gGain #gthe #gMaster's #gCyclone #gSlash.",
+      "[Accept the Teachers Glory] #gGain #gNailmaster's #gGlory #gRelic.",
+      "[Locked] Requires: A card that Costs 3 or more."
+    ]
+  },
+  "Hallownest:StagwaysEvent2": {
+    "NAME": "Stagways of The City",
+    "DESCRIPTIONS": [
+      "Just beyond the empty storerooms you see another large transit tunnel, ringing the bell summons the Last Stag. NL \"I remember this station well. A common trip it was. Goods from all over the kingdom were transported here. NL So many grand thoroughfares and old sideways I'd forgotten.\" NL NL \"So... Shall we travel together?\"",
+      "Although the ride is a bit bumpy, certainly too rough for something delicate, the sickly smell of fungi, fog and biomass fills the air of this station. NL \" Ahh, this gladdens me. The Queen's Station has opened once more. This place was a bustling hub of travel, well-placed for travellers visiting the outer edges of the land. NL Shall we continue on to the next station?\"",
+      "\"I've enjoyed the chance to once more travel with others, I've grown stiff and tired over these many years and I've forgotten much, but the sound of the bell will always call me back.\"",
+      " The route circles back to the very core of the City of Tears, this station looks much nicer than any other so far. NL \"  we stand in the King's Station! Named of course for the King of Hallownest, he who ordered the building of the stagways and stations.\"",
+      "\"You've opened several stag stations now, haven't you? I'm thankful for the opportunity to once more travel through the kingdom. NL As I visit more places I feel my #pmemories returning to me, like the stagways of my ~mind~ are ~running~ once more. NL Continue to open the stations and you'll have my #yDeepest #yGratitude. NL For now, take #ythis. I hope to see you again my friend.\"",
+      "\"Ahh, many stag stations have been opened. Again I can travel the breadth of the kingdom. NL Somewhere amongst the lines lies the ~Stag~ ~Nest,~ the place where I was born and raised. NL  I'd thought its location lost to my failing mind, but now I can almost remember the path. NL For now, let me provide you an even more #yreliable #ybell than that #pold #pthing. \"",
+      "The old beetle seems a bit sad as he watches you leave."
+    ],
+    "OPTIONS": [
+      "[Leave]",
+      "[Unlock the Next Station] Costs #y",
+      " #yGold ",
+      "[Stop Here] #gGain #g6 #gMax #gHP",
+      "[Accept] #gGain #ga #gUnique #gRelic.",
+      "[Accept] #gUpgrade #gthe #gStags #g#Bell #gRelic.",
+      "[Locked] Requires #y",
+      " #yGold.",
+      "[Continue]"
+    ]
+  },
+
+  "Hallownest:RelicSeekerLemmEvent": {
+    "NAME": "Relic Seeker Lemm",
+    "DESCRIPTIONS": [
+      "Within this room of the city, a merchant sits behind the counter. NL  \" No touching the antiques! My stock is not for sale. NL Still, I imagine you come across many interesting items in your travels. Maybe you'd care to part with some? I'll offer a good deal for each. \"",
+      "\"We've talked enough I think. Relics need cleaning. Texts need deciphering. Out with you! This isn't a museum.\"",
+      " \" No touching the antiques! My stock is not for sale. NL Still, I imagine you come across many interesting items in your travels. Maybe you'd care to part with some? I'll offer a good deal for each.\" NL NL ~...Who ~~were~ ~you~ ~mystery~ ~knight?...~ "
+    ],
+    "OPTIONS": [
+      "[Leave]",
+      "[Offer: ",
+        "] #rLose #rthis #rrelic. Gain #y",
+      " #yGold.",
+      "[Locked] Requires: More Relics.",
+      "[Dream Nail Lemm] ???"
+    ]
+  },
+
+  "Hallownest:HollowKnightMemorial": {
+    "NAME": "The Memorial Fountain",
+    "DESCRIPTIONS": [
+      "In the center of the city lies a fountain, built to honor the great sacrifice of one likely long dead: NL NL  In the Black Vault far above. Through its sacrifice, Hallownest lasts eternal. NL   \" Again we meet.\"",
+      "Behind you is Hornet, she seems... not quite ready to try and kill you. NL \"It's no surprise then you've managed to reach the heart of this world. In so doing, you shall know the sacrifice that keeps it standing. When you get learn the tragic truth, What will you choose? NL to Prolong Hallownest in it's doomed #ywealth and #yglory, or Purify it in hopes of something #pnew?\"",
+      "\"You've burdened yourself with the fate of this world, yet you still stand strong. Seek the Grave in Ash, You may yet escape this place.\""
+    ],
+    "OPTIONS": [
+      "[Leave]",
+      "[Turn to the voice]",
+      "[Prolong] #gGain #y",
+      " #yGold.",
+      "[Purify] #gGain #gRed #gMask."
+    ]
+  },
+
+  "Hallownest:NailsmithEvent": {
+    "NAME": "The Nailsmith",
+    "DESCRIPTIONS": [
+      "Near the entrance of the city, lies a hut, steam and smoke pour from the chimney, and the sound of clanging can be heard from inside. \" After a Nailsmith are you? Well you've found one. NL I'm not much for talk, but if it's a nail that needs repair then you've come to the right bug.\"",
+      "\"It's done. The reforging is done. NL Finally, I behold the majesty of a Pure Nail. To think this moment has come upon me so soon... NL ..I... I must step outside a moment...\"",
+      "The Nailsmith stands at the edge of the cliff, staring into the distance. NL \"With a Pure Nail forged, my work in this lifetime comes to an end. My only remaining desire is to see and feel the nail strike true! NL I beg you, cut me down. As my final moment in life, I want to taste the blade's exquisite edge.\"",
+      "The Nailsmith falls, speaking his last words. NL \"Pure...\"",
+      "\"My life's work achieved... What more is left...? NL Haven't I ~earned~ this much?\"",
+      "\"That brush... I remember another who used one much like it... NL Perhaps I will seek him out... NL It would be nice to not be alone anymore.\"",
+      "You hurry away, eager to escape the memory of what you've done.",
+      "Satisfied with his work, you leave."
+    ],
+    "OPTIONS": [
+      "[Leave]",
+      "[Forge a Pure Nail] #rLose ",
+      " : #gGain #gPure #gNail's #gEdge+.",
+      "[Locked] Requires: An Upgraded Attack that Costs 3 or more.",
+      "[Improve] #gUpgrade #ga #gCard.",
+      "[Rob the Nailsmith] #gObtain #ga #gUnique #gRelic : #rBecome #rCursed #r- #rShame.",
+      "Choose a card to Upgrade",
+      "[Follow the Nailsmith]",
+      "[Fulfill] Strike down the Nailsmith.",
+      "[Deny] Spare the Nailsmith.",
+      "[Locked] Requires: More upgradable cards."
+
+    ]
+  },
+
+
+  "Hallownest:FungalCoreEvent": {
+    "NAME": "The Fungal Core",
+    "DESCRIPTIONS": [
+      "Amidst the damp fungal outskirts of the mournful city, you find a winding path deep into the heart of the Fungal Wastelands.",
+      "The end of the path finally draws near, the air is so #ythick with the spores from the fungi's ~perithecium~ that it's #rdifficult #rto #rbreathe. NL You are certain there is #ysomething at the center of the spores however. NL You could ~try~ to reach it, or give up and look around. ",
+      "You make your way back towards the city, thankful for the breathable air."
+    ],
+    "OPTIONS": [
+      "[Leave]",
+      "[Follow the Path]",
+      "[Hold Your Breath] #gObtain #gSpore #gShroom.",
+      "[Locked] Requires: Card with ",
+      " or more Block.",
+      "[Charge in and take it] #rLose #r",
+      " #rHealth: #gObtain #gSpore #gShroom. ",
+      "[Search the Area] #gChoose #g2 #gCards #gto #gadd #gto #gyour #gdeck."
+    ]
+  },
+
+
+
+  "Hallownest:DungDefenderEvent": {
+    "NAME": "Clearing The Sewers",
+    "DESCRIPTIONS": [
+      "The ground gives way wetly, and you are fairly certain you can recognize the foul stench in the air. A rumbling beneath your feet leads to a jubilant knightly bug bursting from the ground.",
+      "\"I almost mistook you for one of those mindless skulking husks, yet you clearly possess a Knightly demeanor! NL I wonder... if I could ask a boon of you? NL There's these awful little pink things running around the sewers, and I'd like your assistance removing them?\"",
+      "\"I was once a Knight you see. By the grace of our good King, I stood proudly before the throne, watching Hallownest swell to greatness.NL  Then that nasty business with the affliction...NL We knights defend against the physical, but a formless enemy. How to defeat such a foe? NL NL Ah, but here we are! The source of the creatures lies inside, can I count on your assistance?\"",
+      "The battle seems undending, swarms of the little things in every direction, but with Ogrim's Assistance the nest of Flukes is finally defeated. (Pending actual combat with Dung Defender Ally Later)",
+      "\"Such joyful, vigorous combat. I'd almost forgotten the feeling. You've invigorated me. 'Tis truly a delight to meet one whose strength can match my own. NL Take whichever you like! NL What the creature dropped, or this as a token of my approval!\"",
+      "\"Go now, mighty warrior of Hallownest! You've proven your honour! Good fortune on the path ahead.\"",
+      "You cannot stand the stench any longer, you leave as quickly as possible."
+    ],
+    "OPTIONS": [
+      "[Leave]",
+      "[Talk to Ogrim]",
+      "[Assist the Dung Defender] Search for the Source of the Flukes.",
+      "[Battle the Flukemarm] Do battle alongside Ogrim. Gain Rare Relics",
+      "[Decline] You've places to be, and showers to take.",
+      "[The Fluke Nest]#gGain #ga #gUnique #gRelic.",
+      "[The Defender's Crest] #gGain #ga #gUnique #gRelic.",
+      "[Neither] Your service was provided from one knight to another.",
+      "[Continue]"
+    ]
+  },
+
+
+
+  "Hallownest:TheSaunaEvent": {
+    "NAME": "The Pleasure House - Sauna",
+    "DESCRIPTIONS": [
+      "With the turn of a simple key you discover a Sauna! A welcome reprise in both health as well as smell from the city, fungus and sewers outside.",
+      "The relaxation fills you with the determination to continue on your way.",
+      "\"Oh...A-ah, hello again d-dearie. Fancy running into you he-here. NL Is it your Gold you're after? We-ll you see, it's ahhhhh. It's a sad thing, but...It's ~gone.~ ~All~ ~spent.~ NL The cost of running a bank can be high, so I had to charge a somewhat large service fee to your account. \"",
+      "\"Oh...A-ah, hello again d-dearie. Thank you so much for visiting me, and run along now won't you. NL If you allow me some privacy, I'll be done here soon.\"",
+      "You regain some of your gold from Millibelle's Shell. NL \" Aahhh! Stop! That's mine! NL It was perfectly legitimate, of course. NL Just part of the whole banking deal...ah ha ha...ha.  \"",
+      " No more #ygold comes out. NL \"I--I've nothing left...I ahhh, I suppose, ahh, you might be on your way now then?\"",
+      "You leave her alone for now, having learned a valuable lesson about banking."
+    ],
+    "OPTIONS": [
+      "[Leave]",
+      "[Relax in the Hot Spring] #gHeal #g",
+      " #gHP ",
+      "[Take a Nap] #gRemove #ga #gcard #gfrom #gyour #gdeck.",
+      "[Is That Millibelle?] Investigate Further",
+      "[Accept] #gUpgrade #gthe #gStags #g#Bell #gRelic.",
+      "[Locked] Requires Bank Account Card Relic.",
+      "[Leave Millibelle Alone]",
+      "[Locked] You didn't deposit any Gold.",
+      "[Get Your Money] Smack Millibelle: #yGain #y",
+      " #yGold.",
+      "[Continue]",
+      "Choose a Card to Remove."
+    ]
+  },
+
+  "Hallownest:MadameDivineEvent": {
+    "NAME": "Scent of Divine",
+    "DESCRIPTIONS": [
+      "You do not remember seeing this #rcrimson tent here before, to the side of the main one. Perhaps you should look inside?",
+      " A rather larger... Mantis? is pruning her claws and ~sniffing~ the air hungrily. NL \" @Aaaaaaaaahhhhhhhh!@ That smell, something ~temporary,~ Most precious thing! Will you let me see it? Have to show it to me! NL But... I can show you something if you're nice to me. Give to me... your Gold. Give me your Gold and I'll give you a gift.\"",
+      "\"You carry a lot of smells on you, but you don't have one of your own. Funny little thing...\"",
+      "\" @Ahhhhh.@ Such beautiful, special gifts. So lovely!\""
+    ],
+    "OPTIONS": [
+      "[Leave]",
+      "[Enter the Tent]",
+      "[Give Gold] #rLose #y",
+      " #yGold and #ra #rcard #rwith #rExhaust : #gGain #ga #gUnique #gRelic.",
+      "[Give Card] #rGive #rDivine #ra #rcard #rwith #rExhaust : #gHeal #gto #gFull.",
+      "[Locked] Requires: A card with Exhaust.",
+      "[Accept Pity] #gHeal #g5 #gHP.",
+      "Choose a card with exhaust to Give.",
+      "Choose a card with exhaust to Give.",
+      "[Locked] Not Enough Gold."
+    ]
+  },
+
+  "Hallownest:MarissasSongEvent": {
+    "NAME": "The Pleasure House - Songstress",
+    "DESCRIPTIONS": [
+      "Within this house of hedonism, long fallen to desolation, a #pluminous butterfly stands on the stage, watching you. NL \"Welcome to my stage. I am #yMarissa, a songstress of some renown, though you may find it hard to believe. NL Perhaps you'd care to ~listen~ to me sing? You'll be the first in an age to hear it. NL Even if only you, it's a #ywonderful thing to have an audience again. \" ",
+      "The song is hauntingly beautiful, it brings to mind memories long buried.",
+      "The Songstress is #rgone. Perhaps she will find an audience in the next life? NL #pThe #pDream #pNail seems more #yvibrant than before.",
+      "You leave the Pleasure House, the feeling of #bmelancholy and #bnostalgia deep in your gut."
+    ],
+    "OPTIONS": [
+      "[Leave]",
+      "[Listen to Her Song]",
+      "[Dream Nail Marissa] Dispel her spirit",
+      "[Remember Time Long Past] #gGain #gan #gAncient #gPotion.",
+      "[Remember Hopes and Dreams] #gGain #gLiquid #gMemories.",
+      "[Allow Your Mind To Wander] #gGain #gEntropic #gBrew."
+    ]
+  },
+
+
+
+
+
+
+
+
+  "Hallownest:ACT_3_EVENTS": {
+    "NAME": " The Following Are The Events from Kingdom's Edge: ACT 3",
+    "DESCRIPTIONS": [],
+    "OPTIONS": []
+  },
+
+  "Hallownest:ZoteEvent3": {
+    "NAME": "The 57 Precepts of Zote the Mighty: Act 3",
+    "DESCRIPTIONS": [
+      "In the darkness you hear a grumbling that sends shivers down your spine. Zote is standing before you. NL NL \"Hmm? Are you lost in these dark tunnels? I don't care... Fine! I'll give you the greatest gift of all, my Wisdom! NL Which of my #p'Fifty-Seven #pPrecepts #pof #pZote' should you learn?\"",
+      "\"Precept Thirty-Three: #p'Show #pthe #pEnemy #pNo #pRespect'. NL NL Being gallant to your enemies is #rno #rvirtue! NL If someone @opposes@ you, they don't deserve #yrespect or #ykindness or #ymercy. \"",
+      "\"Precept Forty-Eight: #p'Be #pCareful #pWith #pFire'. NL NL Fire is a type of #rhot #rspirit that dances about recklessly. NL It can warm you and provide light, but it will also #rsinge your shell if it gets too close.\"",
+      "\"Precept Fifty-Six: #p'Do #pNot #pDream'. NL NL Dreams are dangerous things. NL Strange ideas, not your own, can worm their way into your mind. NL But if you resist those ideas, sickness will wrack your body! NL Best not to dream at all, like me. \"",
+      " Finally, Zote finishes talking, but then continues, NL  \"No, I won't lead you out. I know the way, due to my #ppowerful #pmemory, but I only travel alone.  NL @Begone.@ \" "
+    ],
+    "OPTIONS": [
+      "[Continue]",
+      "[Precept 33] #rBecome #rCursed #r- #rPride.",
+      "[Precept 48] #rAdd #r2 #rBurns #rto #ryour #rDeck.",
+      "[Precept 56] #rLose #r",
+      " #rMax #rHP.",
+      "[Leave]"
+    ]
+  },
+
+  "Hallownest:CorniferEvent3": {
+    "NAME": "Kingdom Cartographer",
+    "DESCRIPTIONS": [
+      "A trail of papers and a familiar ~humming~. NL Cornifer must be nearby.",
+      " Lodged into a drainage area along the side of the city's cliff Cornifer is mapping the area. NL \" Isn't this a cozy hole? NL I've been venturing about that wilderness beside here and thought a moment's break was well called for...  NL Care to see my efforts?\"",
+      "\"Judging by this wall, the city's folk seemed #yhesitant to build further into these caverns. NL I wonder what kept them ~at~ ~bay?~ \"",
+      "\"Not interested, then? Yes, quite understandable. NL Perhaps we'll meet again on our travels. \""
+    ],
+    "OPTIONS": [
+      "[Leave]",
+      "[Search] Look for Cornifer.",
+      "[Purchase a Map] #y",
+      " #yGold. #gGain #gKingdoms #gEdge #gMap #gCard.",
+      "[Locked] Requires: #y",
+      " #ygGold."
+
+    ]
+  },
+
+
+  "Hallownest:KEBardoonEvent": {
+    "NAME": "Bardoon's Retreat",
+    "DESCRIPTIONS": [
+      "Atop this ashen mount rests a colossal... Caterpillar? maybe?  \"You climb high. Seek then knowledge of these lands? NL This falling ash is moult. The Wyrm's corpse decaying. Endless. Rmm... Serene. Sad. With its like gone, the world is smaller. NL What seek you then? NL  is it transformation you seek? Or to save this ruin? or the light's allure. Union it may offer, but also a mind bereft of thought... \" ",
+      " \"It evolves beyond that Wyrm. Such union in a single being. A strength before unseen. Would it too challenge nature? It could perhaps defeat it.\"",
+      "\"Hmpph...Be on your way then? It's rest I'll return to, though in these times sleep oft proves uneasy.\"",
+      "\"Theirs is a different kind of unity. Rejection of the Wyrm's attempt at order.\""
+    ],
+    "OPTIONS": [
+      "[Leave]",
+      "[I Seek Transformation] #rTake #r",
+      " #rDamage : #gGain #g",
+      " #gMax #gHP.",
+      "[I Seek Salvation] #rLose #r",
+      " #rMax #rHP : #gHeal #gto #gfull.",
+      "[I Seek Unity] #gGain #ga #gDangrous #gCard."
+    ]
+  },
+
+  "Hallownest:KEFountainEvent": {
+    "NAME": "Pale King's Fountain",
+    "DESCRIPTIONS": [
+      "Within this dark recess, an Ornate fountain to a Pale Being stands, within the pool at it's base you can make out the flickering of gold.",
+      "Nothing happens, You are unsure why you expected anything else with such a paltry donation.",
+      "You feel like the grace of the king has eased your burdens some",
+      "Something deep within calls out to you searching for it, you feel you have discovered something about yourself.",
+      "Noone will ever know you've done this.",
+      "From deep within the fountain a strange white orb floats up too meet you."
+    ],
+    "OPTIONS": [
+      "[Leave]",
+      "[Toss in some gold] add #y",
+      " #ygold into the fountain.",
+      "[Take all the gold] #gGain #y",
+      " #yGold.",
+      "[That's Enough] Discover Possible Rewards",
+      "[Accept] #gGain #ga #grandom #gUncommon #gRelic.",
+      "[Accept] #gGain #ga #gUnique #gRelic.",
+      "[Accept] #gHeal #g",
+      " #gHP.",
+      "[Locked] Not Enough Gold.",
+      "[Please Stop] That's So Much Gold, Just Collect the Rewards."
+    ]
+  },
+
+  "Hallownest:KELighthouseEvent": {
+    "NAME": "The Lighthouse in the Darkness",
+    "DESCRIPTIONS": [
+      "The dark @chilling@ atmosphere is broken by the piercing #ylight of a lighthouse, climbing inside a container of soul-charged lumaflies fills the air with a pure white light. NL A dead bug, dripping ~black~ ~ink~ from his eyes, seems to have been trying to shut the light off.",
+      "You leave, knowing that the light will only keep the @void@ at bay for a while longer.",
+      "The @void@ fills you, you feel a #bcold, #bempty hunger inside.",
+      "The #ylight provides a small bit of quiet ~comfort~ from the world outside."
+    ],
+    "OPTIONS": [
+      "[Leave the Lighthouse] Do Nothing",
+      "[Rest In the Light] #gHeal #g",
+      " #gHP.",
+      "[Embrace the Void] Choose 3 cards: #gTriple #g1 and #rLose #r2 at Random.",
+      "Choose 3 Cards to Risk",
+      "[Leave]"
+    ]
+  },
+
+
+  "Hallownest:KEAspidNestEvent": {
+    "NAME": "Aspid Nest",
+    "DESCRIPTIONS": [
+      "You can feel the air ~tingling~ with the frustration of a @thousand@ @deaths@ as you find a pair of Primal Aspids guarding a body on the gound, the body clearly has something of great value clutched in it's hands. NL You know in your heart this is a #rvery #rdangerous choice.",
+      "You can see the #rspite in the aspids' eyes as you attack.",
+      "Definitely a #pwise decision, those things are ~awful.~ "
+    ],
+    "OPTIONS": [
+      "[Raid the Nest] #rFight. #gReward: #gRare #gRelic.",
+      "[Absolutely Not]",
+      "[Leave]",
+      "[Fight]"
+    ]
+  },
+
+  "Hallownest:KEAncientNailsmithEvent": {
+    "NAME": "The Ancient Nailsmith",
+    "DESCRIPTIONS": [
+      "In front of you is an ancient corpse and many once polished nails, rusted to ruin. Strangely the anvil still feels warm. You feel you could probably use these tools to improve your armaments.",
+      "Improved and Armed, you continue on your way.",
+      "You realize that you are no Master Smith, You continue along your way. "
+    ],
+    "OPTIONS": [
+      "[Upgrade Any Number of Cards] For Each Card: #r+",
+      "% #rchance for #r2 #rNormalities.",
+      "[Repurpose] Downgrade up to 2 cards. Upgrade up to 2 cards.",
+      "[Locked] Requires An Upgraded Card",
+      "[Locked] Requires Upgradable Cards",
+      "[Leave]"
+    ]
+  },
+
+  "Hallownest:KEWhitePalaceEvent": {
+    "NAME": "The White Palace",
+    "DESCRIPTIONS": [
+      "The world shimmers and changes, where previously emptiness appeared, a alabaster palace now stands, within lies a serious of difficult challenges which will test your speed and reflexes. NL Will you attempt the challenge?",
+      "Obstacle 1: Two #pwingmoulds seem to form a dangerous bridge to the room ahead. NL Your challenge has just begun.",
+      "Obstacle 2: You will need to fall and move forward with precise timing, then shift your weight towards the wall and catch it. NL How much ~longer~ will this go on?",
+      "Obstacle 3: You must shift your weight and defenses to cross the moving spears and reach the platform. NL You feel yourself getting #ytired of these gimmicks.",
+      "Obstacle 4: You must jump with enough speed and accuracy to cleat the spinning blade, but not so much that your momentum drives you to the spikes beyond. NL You can see a #pdark #proom on the platform beyond, Your challenge is ~nearly~ ~complete.~ ",
+      "Your challenge conquered, you enter the throne room, The Pale King sits upon the throne, or what is left of him does. In his lap lies a small Idol. Just beyond the corpse likes an unlocked door which leads to the entrance. NL It seems you could have just used that door instead.",
+      "You leave this palace, annoyed with the #yfoolish king and his ~obsession~ with buzzsaws.",
+      "You take the #yIdol, and decide to leave."
+    ],
+    "OPTIONS": [
+      "[Begin the Challenge] you have #b",
+      " Retries, and #b",
+      " Dodges remaining.",
+      "[Attempt Trial] Success: #b",
+      "%. Chance to Lose #r",
+      " #rHP on Fail: #r",
+      "%. Retries: ",
+      "[Locked] No More Retries.",
+      "[Use a Dodge] Success: #b+20%. Dodges Remaining: #b",
+      "[Locked] No More Dodges.",
+      "[Leave]",
+      "[Take Relic] #gGain #gthe #gKing's #gIdol #gRelic."
+    ]
+  },
+
+  "Hallownest:KEColosseumEvent": {
+    "NAME": "The Colosseum of Fools",
+    "DESCRIPTIONS": [
+      "You stumble into a strange colosseum, a small bug hanging from the ceiling greets you. NL \"Aha! Another #ywarrior finds their way to our fair ~Colosseum.~ NL Choose your #yTrial and Lo! The #pchallenge will commence. Completing any trial #yawards #ygold and maybe #pmore! NL But be warned, if you leave #rwithout completing the trial, you will gain #rnothing.\"",
+      "\"Welcome back, warrior! A true ~warrior~ strides unstopping into #rbattle. NL They gain #ystrength by vanquishing others, not in flight from them. NL Are you #pready? \"",
+      "\"What @cowardice!@ Maybe #yyou don't have what it takes?\"",
+      "The crowd erupts in applause, Lord Fool, however, does not; he is still very dead. Your rewards await."
+    ],
+    "OPTIONS": [
+      "[Trail of the Warrior] 1 Combat. 1 Unique Elite, Reward: #yGold",
+      "[Trail of the Conqueror] 2 Combats. 1 Unique Elite. Reward: #gCard and #yGold.",
+      "[Trail of the Fool] 3 Combats. 1 Unique Elite. Reward: #gRelic and #yGold.",
+      "[Continue the Challenge] Begin the next fight.",
+      "[Leave] Give up all rewards.",
+      "[Take Gold] #gGain #y",
+      " #yGold.",
+      "[Take Reward] #gGain #y",
+      " #yGold #gand #gUnique #gReward.",
+      "[Leave the Colosseum]",
+      "[Face the 'Mighty' Warrior]"
+    ]
+  },
+
+
+  "Hallownest:StagwaysEvent3": {
+    "NAME": "Stagways of the Kingdom",
+    "DESCRIPTIONS": [
+      "Within this Ancient strange architecture, you find a structure you know well, and with the strike of a bell a powerful, friendly rumbling fills the tunnel. NL \"Ah! What station is this, hidden all the way at the bottom of the world? NL Until I heard the bell calling, I didn't even know the Stagways travelled so deep. You've discovered something quite astounding\" NL NL \"So... Shall we travel together?\"",
+      "The already faint light grows even dimmer as you cling to the Stag's carapace, you can feel eyes on you, and it seems like there's constant skittering movement just outside your view, no matter where you look. NL \" Ahh, Friend... Where are we? I have never been to this station. It has a strange air of danger to it. Let me take you somewhere safer, quickly.\"",
+      "\"I've enjoyed the chance to once more travel with others, I've grown stiff and tired over these many years and I've forgotten much, but the sound of the bell will always call me back.\"",
+      "The air grows still, and a sense of somber melancholy seems to come from the Stag. NL \"  The Resting Grounds... Passengers would come here to conduct rituals for those who had passed on...Not any more though.\"",
+      "\"You've opened several stag stations now, haven't you? I'm thankful for the opportunity to once more travel through the kingdom. NL As I visit more places I feel my #pmemories returning to me, like the stagways of my ~mind~ are ~running~ once more. NL Continue to open the stations and you'll have my #yDeepest #yGratitude. NL For now, take #ythis. I hope to see you again my friend.\"",
+      "\"Ahh, many stag stations have been opened. Again I can travel the breadth of the kingdom. NL Somewhere amongst the lines lies the ~Stag~ ~Nest,~ the place where I was born and raised. NL  I'd thought its location lost to my failing mind, but now I can almost remember the path. NL For now, let me provide you an even more #yreliable #ybell than that #pold #pthing. \"",
+      "\"I've finally recalled the route! the Stag Nest, where I was born and raised. NL My duty binds me to travel only where I am called, but if you wished to see it yourself, NL We could go there together?\"",
+      "The structure of this new station makes it clear that it was created for bugs the size of the stag, corpses lie just beyond the entry way and within you find a single recently hatched egg. NL \"  Being back in my old home... I feel the weight of my long life bearing down on me. NL  I carry it proudly, though. Wherever I travel, the memories of my family and my kind come with me. NL  Yes, I will hold onto that hope. My kin, still alive, still out there, journeying beyond these lands. NL Allow me to #ythank #yyou, I have little to offer, but instead of that old bell, take this #yEgg, and know that I will be your companion as long as this old body still serves.\"",
+      "The old beetle seems a bit sad as he watches you leave."
+    ],
+    "OPTIONS": [
+      "[Leave]",
+      "[Unlock the Next Station] Costs #y",
+      " #yGold ",
+      "[Stop Here] #gGain #g7 #gMax #gHP",
+      "[Accept] #gGain #ga #gUnique #gRelic.",
+      "[Accept] #gUpgrade #gthe #gStags #g#Bell #gRelic.",
+      "[Accept] #gReplace #gthe #gStags #g#Bell #Stand #gRelic.",
+      "[Locked] Requires #y",
+      " #yGold.",
+      "[Continue]",
+      "[Travel to the Stag's Nest]"
+    ]
+  },
+
+
+  "Hallownest:BeastsDenEvent": {
+    "NAME": "The Dreamer in the Den",
+    "DESCRIPTIONS": [
+      " #yWorn and #yWeary you stumble into a hut within the deep nest. ~Strange~ little bugs stare at you, attempts at conversation end with them just suggesting you @rest.@ ",
+      "As you drift to sleep, the bench feels sticky as if ~unwilling~ to let you go, and you swear the bugs around you are closer than they were a moment before... NL ... #pDarkness.",
+      "Falling from a webbed cocoon wakes you, leaving you in front of the #pdreaming Beastmother.",
+      "Falling from a webbed cocoon wakes you, leaving you in front of the #pdreaming Beastmother. NL NL ~Give~ ~All~ ~...~ ~For~ ~Her~ ~...~",
+      "Herrah's former bed lies empty, and beside it #yHornet has appeared, she seems...distressed. NL \"I'd not have obstructed this happening, but it caused me some #rpain to knowingly stand idle. NL ...What? You might think me stern but I'm not completely #bcold. NL We do not choose our #ymothers, I'm ~thankful~ for the life she #ggranted me.\"",
+      "\"The path is opened. One way or another an end awaits inside.\" NL To open the Black Egg and Retrieve #pwhat's within, you will need to use the #bDreamer's #bSeals.",
+      "You continue on our way."
+    ],
+    "OPTIONS": [
+      "[Leave]",
+      "[Rest at the Bench]",
+      "[Locked] You should Rest",
+      "[Locked] Don't leave... Rest.",
+      "[Continue?]",
+      "[Break the Seal] #gGain #ga #gUnique #gRelic. #rBecome #rCursed #r- #rDreamer's #rLament",
+      "[Use the Dream Nail] Release the Dreamer.",
+      "[Leave the Beast's Den] be on your way",
+      "[Break the Seal] #gGain #ga #gUnique #gRelic.",
+      "[Locked] Requires: Dream Nail Relic.",
+      "[Have Hornet Lead You To The Black Egg] #pAll #pSeals #pBroken",
+      "[Open the Black Egg] #rLose #rthe #r3 #rSeal #rRelics : #gGain #ga #gPowerful #gRelic.",
+      "[Locked] Requires: 3 Dreamers Seals",
+      "[Continue]"
+
+    ]
+  },
+
+  "Hallownest:NailmasterOroEvent": {
+    "NAME": "The Reluctant Master",
+    "DESCRIPTIONS": [
+      "Near the furthest outskirts of the kingdom, you find a hut of shell and carapace, covered in ash.",
+      "\"Yes, I know why you're here. You came to learn a Nail Art from the legendary Nailmaster Oro. NL  If you truly wish to train under me, prove it with Gold!\"",
+      "Eh, probably nothing good inside anyway.",
+      "\"Your skill with the nail, and your thirst to become stronger... you remind me of my brothers.\"",
+      "\" 'Those who do not share their strength or gold will never learn.' NL My master used to say that.\""
+    ],
+    "OPTIONS": [
+      "[Leave]",
+      "[Enter]",
+      "[Purchase Training] Costs #y",
+      " #yGold. #gGain #gthe #gMaster's #gDash #gSlash.",
+      "[Locked] Requires #y",
+      " #yGold.",
+      "[Accept the Master's Skill] #gGain #gHeavy #gBlow #gRelic.",
+      "[Locked] Requires: A card that Costs 3 or more."
+    ]
+  }
+}
+

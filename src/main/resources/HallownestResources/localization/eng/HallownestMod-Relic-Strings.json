@@ -1,0 +1,138 @@
+{
+  "Hallownest:StagBellRelic1": {
+    "NAME": "The Stag's Bell",
+    "FLAVOR": "\"The sound of the bell will always call me back.\"",
+    "DESCRIPTIONS": [
+      "Click to draw #b6 cards. Recharge by defeating a boss."
+    ]
+  },
+
+  "Hallownest:StagBellStandRelic": {
+    "NAME": "The Stag's Bell Stand",
+    "FLAVOR": "\"Echoes down the stagways and calls me to you.\"",
+    "DESCRIPTIONS": [
+      "Click to draw #b6 cards, and gain [E] [E] [E] . Recharge by defeating a boss."
+    ]
+  },
+
+  "Hallownest:StagEggRelic": {
+    "NAME": "Stag's Empty Egg",
+    "FLAVOR": "... Perhaps .. Not the last?",
+    "DESCRIPTIONS": [
+      "Click to Stun ALL enemies for a turn. Restore both charges by defeating a boss."
+    ]
+  },
+
+  "Hallownest:BankAccountRelic": {
+    "NAME": "Bank Account Key",
+    "FLAVOR": "\"Rest assured Dearie, I'll keep your Geo safe.\"",
+    "DESCRIPTIONS": [
+      "Whenever you enter a shop room, gain #y25 #ygold."
+    ]
+  },
+
+  "Hallownest:GodTamersBeastRelic": {
+    "NAME": "God Tamer's Beast",
+    "FLAVOR": "\"Some hunters train beasts to join them in chasing down prey.\"",
+    "DESCRIPTIONS": [
+      "Whenever you shuffle your draw pile, apply #b3 #yConstricted to all enemies."
+    ]
+  },
+
+  "Hallownest:SheosBrushRelic": {
+    "NAME": "Sheo's Paintbrush",
+    "FLAVOR": "\"Painting, sculpting... these things bring a different kind of pleasure.\"",
+    "DESCRIPTIONS": [
+      "Whenever you play a card that cost #b3 or more, gain #b3 #ystrength."
+    ]
+  },
+
+  "Hallownest:HeavyBlowRelic": {
+    "NAME": "Heavy Blows",
+    "FLAVOR": "\"Whatever it takes... I'll prove myself!\"",
+    "DESCRIPTIONS": [
+      "Whenever you play an Attack card that cost #b3 or more, gain #b5 #yBlock."
+    ]
+  },
+
+  "Hallownest:DreamNailRelic": {
+    "NAME": "The Dream Nail",
+    "FLAVOR": "Allows the wielder to cut through the veil between dreams and waking.",
+    "DESCRIPTIONS": [
+      "Unlocks occasional unique Enemy Dialogue, and new Options in some events. Holds a #pPowerful #pSecret."
+    ]
+  },
+
+  "Hallownest:TeacherSealRelic": {
+    "NAME": "Seal of the Teacher",
+    "FLAVOR": "\"...For diversity, a Seal...\"",
+    "DESCRIPTIONS": [
+      "The first Skill you play each combat is played twice."
+    ]
+  },
+
+  "Hallownest:WatcherSealRelic": {
+    "NAME": "Seal of the Watcher",
+    "FLAVOR": "\"...For King beloved...\"",
+    "DESCRIPTIONS": [
+      "The first Power you play each combat is played twice."
+    ]
+  },
+
+  "Hallownest:SoulVesselRelic": {
+    "NAME": "Soul Vessel",
+    "FLAVOR": "A complete vessel, imbued with the power to contain soul.",
+    "DESCRIPTIONS": [
+      "Right click to gain [E] . To recharge: end a turn with [E] remaining."
+    ]
+  },
+
+  "Hallownest:BlackEggRelic": {
+    "NAME": "The Seal of the Black Egg",
+    "FLAVOR": "\"In wilds beyond they speak your name with reverence and regret\"",
+    "DESCRIPTIONS": [
+      "The first 2 cards you play the first 2 turns of combat are played twice."
+    ]
+  },
+
+
+  "Hallownest:KingsIdolRelic": {
+    "NAME": "Pale King's Idol",
+    "FLAVOR": "Made out of a mysterious white material.",
+    "DESCRIPTIONS": [
+      "At the beginning of combat, choose #b1 of #b20 Colorless Cards to shuffle into your draw pile."
+    ]
+  },
+
+  "Hallownest:BeastSealRelic": {
+    "NAME": "Seal of the Beast",
+    "FLAVOR": "\"...For her...\"",
+    "DESCRIPTIONS": [
+      "The first Attack you play each combat is played twice."
+    ]
+  },
+
+  "Hallownest:SalubrasBlessingRelic": {
+    "NAME": "Salubra's Blessing",
+    "FLAVOR": "\"Don't be a stranger sweetums.\"",
+    "DESCRIPTIONS": [
+      "Whenever you rest, Heal equal to how many relics you have, and Gain #b2 Max HP."
+    ]
+  },
+
+  "Hallownest:NailmastersGloryRelic": {
+    "NAME": "Nailmaster's Glory",
+    "FLAVOR": "\"You honour me beyond words, my pupil...\"",
+    "DESCRIPTIONS": [
+      "The first time you play a card that costs #b3 or more each turn, regain [E] ."
+    ]
+  },
+
+  "Hallownest:UnbreakableCardRelic": {
+    "NAME": "Unbreakable Card",
+    "FLAVOR": "The smell... different. Strange, but nice. Very nice!",
+    "DESCRIPTIONS": [
+      "The first card with Exhaust played after you shuffle your deck is not exhausted."
+    ]
+  }
+}

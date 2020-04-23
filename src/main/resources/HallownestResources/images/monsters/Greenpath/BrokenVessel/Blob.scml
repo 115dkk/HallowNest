@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0">
+        <file id="0" name="BlobIdle004.png" width="600" height="600" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="BlobIdle001.png" width="600" height="600" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="BlobIdle002.png" width="600" height="600" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="BlobIdle003.png" width="600" height="600" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="BlobSpawn01.png" width="600" height="600" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="BlobSpawn02.png" width="600" height="600" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="BlobPop01.png" width="600" height="600" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="BlobPop02.png" width="600" height="600" pivot_x="0" pivot_y="1"/>
+        <file id="8" name="BlobPop03.png" width="600" height="600" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="Blobs">
+        <animation id="0" name="Idle" length="800" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="198">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="200">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                </key>
+                <key id="3" time="398">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                </key>
+                <key id="4" time="400">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                </key>
+                <key id="5" time="598">
+                    <object_ref id="0" timeline="2" key="1" z_index="0"/>
+                </key>
+                <key id="6" time="600">
+                    <object_ref id="0" timeline="3" key="0" z_index="0"/>
+                </key>
+                <key id="7" time="798">
+                    <object_ref id="0" timeline="3" key="1" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="BlobIdle001">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="-300" y="465"/>
+                </key>
+                <key id="1" time="198" spin="0">
+                    <object folder="0" file="1" x="-302" y="463"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="BlobIdle002">
+                <key id="0" time="200" spin="0">
+                    <object folder="0" file="2" x="-303.369863" y="455.534247"/>
+                </key>
+                <key id="1" time="398" spin="0">
+                    <object folder="0" file="2" x="-301.369863" y="453.534247"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="BlobIdle003">
+                <key id="0" time="400" spin="0">
+                    <object folder="0" file="3" x="-300" y="454.794521"/>
+                </key>
+                <key id="1" time="598" spin="0">
+                    <object folder="0" file="3" x="-298" y="456.794521"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="BlobIdle004">
+                <key id="0" time="600" spin="0">
+                    <object folder="0" file="0" x="-293.150685" y="450.684932"/>
+                </key>
+                <key id="1" time="798" spin="0">
+                    <object folder="0" file="0" x="-295.150685" y="452.684932"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="Pop" length="400" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="199">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="200">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                </key>
+                <key id="3" time="250">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                </key>
+                <key id="4" time="300">
+                    <object_ref id="0" timeline="3" key="0" z_index="0"/>
+                </key>
+                <key id="5" time="399">
+                    <object_ref id="0" timeline="3" key="1" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="BlobIdle001_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="-300" y="465"/>
+                </key>
+                <key id="1" time="199" spin="0">
+                    <object folder="0" file="1" x="-358.164384" y="547.890411" scale_x="1.2" scale_y="1.2"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="BlobPop01">
+                <key id="0" time="200" spin="0">
+                    <object folder="0" file="6" x="-304.109589" y="456.164384"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="BlobPop02">
+                <key id="0" time="250" spin="0">
+                    <object folder="0" file="7" x="-297.260274" y="446.575342"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="BlobPop03">
+                <key id="0" time="300" spin="0">
+                    <object folder="0" file="8" x="-297.260274" y="441.09589"/>
+                </key>
+                <key id="1" time="399" spin="0">
+                    <object folder="0" file="8" x="-297.260274" y="353.424658" a="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="2" name="Infect" length="500" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="100">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                </key>
+                <key id="2" time="199">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                </key>
+                <key id="3" time="200">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                </key>
+                <key id="4" time="299">
+                    <object_ref id="0" timeline="2" key="1" z_index="0"/>
+                </key>
+                <key id="5" time="300">
+                    <object_ref id="0" timeline="3" key="0" z_index="0"/>
+                </key>
+                <key id="6" time="399">
+                    <object_ref id="0" timeline="3" key="1" z_index="0"/>
+                </key>
+                <key id="7" time="400">
+                    <object_ref id="0" timeline="4" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="BlobIdle001_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="-300" y="465"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="BlobSpawn01">
+                <key id="0" time="100">
+                    <object folder="0" file="4" x="4.098193" y="150.687211" pivot_x="0.511397" pivot_y="0.497721"/>
+                </key>
+                <key id="1" time="199" spin="-1">
+                    <object folder="0" file="4" x="4.098193" y="150.687211" pivot_x="0.511397" pivot_y="0.497721" angle="3.561016" scale_x="1" scale_y="1"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="BlobSpawn02">
+                <key id="0" time="200" spin="-1">
+                    <object folder="0" file="5" x="-1.367584" y="149.315068" pivot_x="0.497721" pivot_y="0.5"/>
+                </key>
+                <key id="1" time="299">
+                    <object folder="0" file="5" x="-1.367584" y="149.315068" pivot_x="0.497721" pivot_y="0.5" angle="351.179558" scale_y="1"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="BlobSpawn01_000">
+                <key id="0" time="300">
+                    <object folder="0" file="4" x="4.10503" y="143.835616" pivot_x="0.504559" pivot_y="0.5" angle="347.232539" scale_y="1"/>
+                </key>
+                <key id="1" time="399" spin="-1">
+                    <object folder="0" file="4" x="4.10503" y="143.835616" pivot_x="0.504559" pivot_y="0.5" angle="4.18486" scale_x="1" scale_y="1"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="BlobIdle001_001">
+                <key id="0" time="400" spin="0">
+                    <object folder="0" file="1" x="-300" y="465"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>
